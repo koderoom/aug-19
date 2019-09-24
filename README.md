@@ -3,6 +3,8 @@
 ```
     ng build --prod --base-href "https://koderoom.github.io/aug-19/"
     npx ngh --dir=dist/Aug19Home
+
+    git push -u origin angular7
 ```
 
 # GENERATE COMPOENENT
