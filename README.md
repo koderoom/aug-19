@@ -1,8 +1,8 @@
 # BUILD COMMAND
 
 ```
-    ng build --prod --base-href "https://koderoom.github.io/feb-19/"
-    npx ngh --dir=dist/Feb19Home
+    ng build --prod --base-href "https://koderoom.github.io/aug-19/"
+    npx ngh --dir=dist/Aug19Home
 ```
 
 # GENERATE COMPOENENT
