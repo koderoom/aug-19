@@ -8,7 +8,7 @@ import * as _ from 'lodash';
 })
 export class AppConstantsService {
 
-    TITLE = "FEB-19";
+    TITLE = "AUG-19";
     BG_LIST:any[] = [{"ID":1, "BG": "bg-primary", "BTN":"btn-primary"}, 
                      {"ID":2, "BG": "bg-danger", "BTN":"btn-danger"}, 
                      {"ID":3, "BG": "bg-dark", "BTN":"btn-dark"}, 
@@ -19,7 +19,7 @@ export class AppConstantsService {
 
     
     MENU_LIST: any[] = [
-      {"ID":2, "MENU": "awebp", "DISPLAY":"AWEBP", "routerLink": "awebp"},
+      {"ID":2, "MENU": "awebp", "DISPLAY":"AWEBP", "routerLink": "awebp", "active": true},
       {"ID":1, "MENU": "java", "DISPLAY":"JAVA", "routerLink": "java" },
       {"ID":3, "MENU": "springcore", "DISPLAY":"SPRING", "routerLink": "springcore" },
       {"ID":4, "MENU": "projectref", "DISPLAY":"PROJECT", "routerLink": "projectref" },
