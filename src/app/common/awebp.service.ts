@@ -494,48 +494,18 @@ export class AwebpService extends DataService {
     // DAY - 1
     const cardDay1 = {
         "ID" : 1,
+        "ACTIVE" : true,
         "TITLE" : "Day 1",
-        "HEADING" : "Designing layout using Html and CSS",
-        "DESC" : `Designing layout using Html and CSS`,
+        "HEADING" : "HTML & CSS Fundamental",
+        "DESC" : `HTML & CSS Fundamental`,
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "HTML Tags Basics", 
+                "ID":1, "TITLE": "HTML & CSS Fundamental", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/1.html`,
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day1/1.html`
             },
 
-            {  
-                "ID":2, "TITLE": "CSS Styling - Inline, Internal & External", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/2.html`
-            },
-
-            {  
-                "ID":3, "TITLE": "Center Align Element reference to window screen.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/3.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/3.html`
-            },
-
-            {  
-                "ID":4, "TITLE": "Vertically divide screen into two sections, and center align children", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/4.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/4.html`
-            },
-
-            {  
-                "ID":5, "TITLE": "Horizontall divide screen into two sections, and center align children", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/5.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/5.html`,
-                "YOUTUBE_LINK": `https://youtu.be/TvWV_W7LzVQ`
-            },
-
-            {  
-                "ID":6, "TITLE": "CSS Transition", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/5.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/5.html`,
-                "YOUTUBE_LINK": `https://youtu.be/TvWV_W7LzVQ`
-            },
         ],
 
         "ASSIGNMENT_LIST" : [
