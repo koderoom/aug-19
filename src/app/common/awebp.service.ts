@@ -562,22 +562,22 @@ export class AwebpService extends DataService {
 
 
     /** FEATURE LIST ANGULAR  */
-    const featuredAngular6= { "ID" : 1,"TITLE" : "Facebook Simulation", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/Qq88kYlnY7Q`};
+    const featuredAngular6= { "ID" : 1,"TITLE" : "Facebook Simulation", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/Qq88kYlnY7Q`};
     FEATURED_ANGULAR_LIST.push(featuredAngular6);
 
-    const featuredAngular5= { "ID" : 1,"TITLE" : "Image Block", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/ZDT7BiEBVBA`};
+    const featuredAngular5= { "ID" : 1,"TITLE" : "Image Block", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/ZDT7BiEBVBA`};
     FEATURED_ANGULAR_LIST.push(featuredAngular5);
 
-    const featuredAngular4= { "ID" : 1,"TITLE" : "DOM Operation", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/1Yq3wIQOPng`};
+    const featuredAngular4= { "ID" : 1,"TITLE" : "DOM Operation", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/1Yq3wIQOPng`};
     FEATURED_ANGULAR_LIST.push(featuredAngular4);
 
-    const featuredAngular3= { "ID" : 1,"TITLE" : "Static Web Application", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/GHO0cmBJDO4`};
+    const featuredAngular3= { "ID" : 1,"TITLE" : "Static Web Application", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/GHO0cmBJDO4`};
     FEATURED_ANGULAR_LIST.push(featuredAngular3);
 
-    const featuredAngular2= { "ID" : 1,"TITLE" : "Block over image", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/rKeSpZ-rDIE`};
+    const featuredAngular2= { "ID" : 1,"TITLE" : "Block over image", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/rKeSpZ-rDIE`};
     FEATURED_ANGULAR_LIST.push(featuredAngular2);
 
-    const featuredAngular1= { "ID" : 1,"TITLE" : "Horizonal Blocks", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/TvWV_W7LzVQ`};
+    const featuredAngular1= { "ID" : 1,"TITLE" : "Horizonal Blocks", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/TvWV_W7LzVQ`};
     FEATURED_ANGULAR_LIST.push(featuredAngular1);
     
 
