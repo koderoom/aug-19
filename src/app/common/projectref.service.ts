@@ -11,8 +11,8 @@ export class ProjectrefService {
 
   constructor() { 
     const BASE_URL = "https://koderoom.github.io";
-    const BASE_URL_DEMO = `https://koderoom.github.io/feb-19-demo`;
-    const BASE_URL_SOURCE = `https://github.com/koderoom/feb-19-demo`;
+    const BASE_URL_DEMO = `https://koderoom.github.io/aug-19-demo`;
+    const BASE_URL_SOURCE = `https://github.com/koderoom/aug-19-demo`;
     const CARD_LIST = [];
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];

@@ -13,8 +13,8 @@ export class ExtDataService extends DataService {
     super(); 
 
     const BASE_URL = "https://koderoom.github.io";
-    const BASE_URL_DEMO = `https://koderoom.github.io/feb-19-webdemo`;
-    const BASE_URL_SOURCE = `https://github.com/koderoom/feb-19-webdemo`;
+    const BASE_URL_DEMO = `https://koderoom.github.io/aug-19-webdemo`;
+    const BASE_URL_SOURCE = `https://github.com/koderoom/aug-19-webdemo`;
     const AWEBP_CARD_LIST = [];
     const AWEBP_FEATURED_LIST = [];
     const AWEBP_FEATURED_ANGULAR_LIST = [];
