@@ -402,6 +402,7 @@ export class AwebpService extends DataService {
     // DAY - 2
     const cardDay2 = {
         "ID" : 2,
+        "ACTIVE" : true,
         "TITLE" : "Day 2",
         "HEADING" : "Applying the learning of HTML and CSS",
         "DESC" : `Applying the learning of HTML and CSS`,
