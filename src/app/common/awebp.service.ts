@@ -457,7 +457,12 @@ export class AwebpService extends DataService {
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": ""},
+            {"ID":1, "TITLE": "CSS Selector"},
+            {"ID":1, "TITLE": "Grid Layout - Place element across the page"},
+            {"ID":1, "TITLE": "Split screen horizontally and vertically"},
+            {"ID":1, "TITLE": "Simulate Google Search"},
+            {"ID":1, "TITLE": "CSS property margin and padding basics"},
+            {"ID":1, "TITLE": "Working with images"},
         ]
     };
     CARD_LIST.push(cardDay2);
