@@ -408,85 +408,56 @@ export class AwebpService extends DataService {
 
         "DEMO_LIST" : [
             {  
-                "ID":10, "TITLE": "Link external javascript with HTML and call js function onclick of button.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/7.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/7.html`,
-                "YOUTUBE_LINK": `https://youtu.be/XmaEYvyKf5o`
-            },
-
-            {  
-                "ID":9, "TITLE": "Create a web application with header and body section with multiple static block.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/6.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/6.html`,
-                "YOUTUBE_LINK": `https://youtu.be/GHO0cmBJDO4`
-            },
-
-            {  
-                "ID":8, "TITLE": "How to use CSS #overflow Property?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/5.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/5.html`,
-                "YOUTUBE_LINK": `https://youtu.be/OtmGDiXzg_A`
-            },
-
-            {  
-                "ID":7, "TITLE": "How to add text block over an Image as background?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/4.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/4.html`,
-                "YOUTUBE_LINK": `https://youtu.be/rKeSpZ-rDIE`
-            },
-
-            {  
-                "ID":6, "TITLE": "How to use linear-gradient for background color?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/41.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/41.html`,
-                "YOUTUBE_LINK": `https://youtu.be/2S8g151kd-g`
-            },
-
-            {  
-                "ID":5, "TITLE": "How to use #background, #background-color, #linear-gradient and #background-image?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/4.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/4.html`,
-                "YOUTUBE_LINK": `https://youtu.be/2S8g151kd-g`
-            },
-
-            {  
-                "ID":4, "TITLE": "Create and design #register page at the center of screen.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/3.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/4.html`,
-                "YOUTUBE_LINK": `https://youtu.be/vi9wjE5gSZw`
-            },
-
-            {  
-                "ID":3, "TITLE": "How to fit an image within parent container and make image element interactive?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/2.html`,
-                "YOUTUBE_LINK": `https://youtu.be/4LcdLboFn-k`
-            },
-
-            {  
-                "ID":2, "TITLE": "How to center align an image in HTML?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/2.html`,
-                "YOUTUBE_LINK": `https://youtu.be/1s7a-jETKqg`
-            },
-
-            {  
-                "ID":1, "TITLE": "Why doesn't height: 100% work to expand divs to the screen height?", 
+                "ID":10, "TITLE": "CSS Selector - Element, Class and ID selector and Redsign Google Style Name without using Inline Style", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/1.html`,
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day2/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/ZKOabqA3xDc`
             },
+
+            {  
+                "ID":9, "TITLE": "CSS Grid layout. How to use this place element across the page.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/2.html`,
+            },
+
+            {  
+                "ID":8, "TITLE": "Simulate Google Search Page using CSS Grid layout", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/3.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/3.html`,
+                "YOUTUBE_LINK": `https://youtu.be/97drOHEegxo`
+            },
+
+            {  
+                "ID":7, "TITLE": "How to split screen vertically using CSS Grid layout.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/4.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/4.html`,
+                "YOUTUBE_LINK": `https://youtu.be/mBIYalJEQfk`
+            },
+
+            {  
+                "ID":6, "TITLE": "Split the window into 2 Rows and 2 Columns using CSS Grid Layout", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/5.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/5.html`,
+                "YOUTUBE_LINK": `https://youtu.be/mBIYalJEQfk`
+            },
+
+            {  
+                "ID":5, "TITLE": "CSS margin and padding property basics", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/6.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/6.html`,
+                "YOUTUBE_LINK": `https://youtu.be/8zMgirRG8wk`
+            },
+
+            {  
+                "ID":4, "TITLE": "Working with images and create vertical image gallery", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/7.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/7.html`,
+                "YOUTUBE_LINK": `https://youtu.be/FqlBzqm4qb0`
+            },
+
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "Link HTML and Javascript"},
-            {"ID":2, "TITLE": "Create applicatoin with Header and Body with static blocks"},
-            {"ID":3, "TITLE": "How to use CSS Overlow"},
-            {"ID":4, "TITLE": "How to add text block over an Image as background?"},
-            {"ID":6, "TITLE": "How to use #background, #background-color, #linear-gradient and #background-image?"},
-            {"ID":7, "TITLE": "Create and design #register page at the center of screen."},
-            {"ID":8, "TITLE": "How to fit an image within parent container and make image element interactive?"},
-            {"ID":9, "TITLE": "How to center align an image in HTML?"},
+            {"ID":1, "TITLE": ""},
         ]
     };
     CARD_LIST.push(cardDay2);
