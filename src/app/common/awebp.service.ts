@@ -339,53 +339,36 @@ export class AwebpService extends DataService {
     // DAY - 3
     const cardDay3 = {
         "ID" : 3,
+        "ACTIVE" : true,
         "TITLE" : "Day 3",
-        "HEADING" : "Document Object and Client Side JavaScript",
-        "DESC" : `Document Object and Client Side JavaScript`,
+        "HEADING" : "Document Object Modal & Javascript integration in HTML",
+        "DESC" : `Document Object Modal & Javascript integration in HTML`,
 
         "DEMO_LIST" : [
             {  
-                "ID":6, "TITLE": "DOM operation, Add New Element/Node with dynamic value, reading data from Input Element. ", 
+                "ID":4, "TITLE": "#document object modal & #DOM #traversal using #querySelector", 
+                "YOUTUBE_LINK": `https://youtu.be/RanyoDaBF1A`
+            },
+            {  
+                "ID":3, "TITLE": "External Javascript integration with HTML.", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/3.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/3.html`,
+                "YOUTUBE_LINK": `https://youtu.be/qlGARe2bwYs`
+            },
+
+            {  
+                "ID":2, "TITLE": "Internal Javascript integration with HTML.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/2.html`,
-                "YOUTUBE_LINK": `https://youtu.be/1Yq3wIQOPng`
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/qlGARe2bwYs`
             },
 
             {  
-                "ID":5, "TITLE": "DOM operation, Add New Element/Node with static value, using #document #cloneNode method.", 
+                "ID":1, "TITLE": "Inline Javascript integration with HTML.", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/1.html`,
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day3/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/i46tWyNkZXI`
+                "YOUTUBE_LINK": `https://youtu.be/qlGARe2bwYs`
             },
-
-            {  
-                "ID":4, "TITLE": "DOM operation, Add New Node using #document #createElement method.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/3USAMyO8ClI`
-            },
-
-            {  
-                "ID":3, "TITLE": "DOM operation, Update Element/Node and change the style of toolbar.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/ssY-rmB5TCo`
-            },
-
-            {  
-                "ID":2, "TITLE": "Fundamental of #document object in #JavaScript and its utility method.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/ZZgf6nSsI_U`
-            },
-
-            {  
-                "ID":1, "TITLE": "How to add #JavaScript in #HTML and invoke function onclick of HTML Element?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/r3577xqGzQU`
-            },
-            
         ],
 
         "ASSIGNMENT_LIST" : [
