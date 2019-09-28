@@ -513,22 +513,16 @@ export class AwebpService extends DataService {
 
 
     /** FEATURE LIST ANGULAR  */
-    const featuredAngular6= { "ID" : 1,"TITLE" : "Google Style Name", "SHOW" : true, "DEMO_LINK" : `${BASE_URL_DEMO}/day1/4.html`};
-    FEATURED_ANGULAR_LIST.push(featuredAngular6);
-
-    const featuredAngular5= { "ID" : 1,"TITLE" : "CSS Heights", "SHOW" : true, "DEMO_LINK" : `${BASE_URL_DEMO}/day1/5.html`};
-    FEATURED_ANGULAR_LIST.push(featuredAngular5);
-
-    const featuredAngular4= { "ID" : 1,"TITLE" : "DOM Operation", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/1Yq3wIQOPng`};
+    const featuredAngular4= { "ID" : 1,"TITLE" : "DOM Navigation", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/RanyoDaBF1A`};
     FEATURED_ANGULAR_LIST.push(featuredAngular4);
 
-    const featuredAngular3= { "ID" : 1,"TITLE" : "Static Web Application", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/GHO0cmBJDO4`};
-    FEATURED_ANGULAR_LIST.push(featuredAngular3);
-
-    const featuredAngular2= { "ID" : 1,"TITLE" : "Block over image", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/rKeSpZ-rDIE`};
+    const featuredAngular2= { "ID" : 1,"TITLE" : "Javscript Integrtion", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/qlGARe2bwYs`};
     FEATURED_ANGULAR_LIST.push(featuredAngular2);
 
-    const featuredAngular1= { "ID" : 1,"TITLE" : "Horizonal Blocks", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/TvWV_W7LzVQ`};
+    const featuredAngular3= { "ID" : 1,"TITLE" : "Google Search UI", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/97drOHEegxo`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular3);
+
+    const featuredAngular1= { "ID" : 1,"TITLE" : "Image Gallery", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/FqlBzqm4qb0`};
     FEATURED_ANGULAR_LIST.push(featuredAngular1);
     
 
