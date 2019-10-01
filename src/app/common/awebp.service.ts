@@ -488,7 +488,10 @@ export class AwebpService extends DataService {
     FEATURED_LIST.push(featured1);
 
 
-    /** FEATURE LIST ANGULAR  */
+    /** FEATURE LIST ANGULAR */
+    const featuredAngular5= { "ID" : 1,"TITLE" : "Todo Application", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/kJ76D5m17Zw`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular5);
+
     const featuredAngular4= { "ID" : 1,"TITLE" : "DOM Navigation", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/RanyoDaBF1A`};
     FEATURED_ANGULAR_LIST.push(featuredAngular4);
 
