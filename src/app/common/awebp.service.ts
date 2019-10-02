@@ -211,52 +211,56 @@ export class AwebpService extends DataService {
     };
     CARD_LIST.push(cardDay6);
 
-    // DAY - 4
+
+    // DAY - 5
     const cardDay5 = {
         "ID" : 5,
+        "ACTIVE" : true,
         "TITLE" : "Day 5",
-        "HEADING" : "Post Perview and Dymaick Block of Image",
-        "DESC" : `Post Perview and Dymaick Block of Image`,
+        "HEADING" : "DOM Operation using jQuery and Bootstrap fundamental.",
+        "DESC" : `DOM Operation using jQuery and Bootstrap fundamental.`,
 
         "DEMO_LIST" : [
             {  
-                "ID":5, "TITLE": "Adding Like, Subscribe and Comment option for each block. (Adding icons with button)", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/3.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/3.html`,
-                "YOUTUBE_LINK": `https://youtu.be/OKEkZvygNlw`
-            },
-
-            {  
-                "ID":4, "TITLE": "Part 2 - Post Preview and add dynamic block of Video using Javascript.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/2.html`,
-                "YOUTUBE_LINK": `https://youtu.be/SeeVQQGASLA`
-            },
-
-            {  
-                "ID":3, "TITLE": "Part 1 - Post and Preview Video block UI Simulation.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/2.html`,
-                "YOUTUBE_LINK": `https://youtu.be/Dnhp-0IvR_8`
-            },
-
-            {  
-                "ID":2, "TITLE": "Part 2 - Post Preview and add dynamic block of image using Javascript.", 
+                "ID":1, "TITLE": "How to install and setup jQuery in HTML project?", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/7WW4s00o5Hg`
+                "YOUTUBE_LINK": `https://youtu.be/hs4lzaKtqwQ`
             },
             {  
-                "ID":1, "TITLE": "Part 1 - Post Preview Image UI Simulation", 
+                "ID":5, "TITLE": "jQuery DOM Operation. How to add/append HTML Element dynamically?", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/ZDT7BiEBVBA`
+                "YOUTUBE_LINK": `https://youtu.be/-YongNOXsuc`
             },
+
+            {  
+                "ID":4, "TITLE": "jQuery DOM Operation. How to remove HTML Element dynamically?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/CTIu81R7boI`
+            },
+
+            {  
+                "ID":3, "TITLE": "Todo application using only Html, Css and jQuery", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/2.html`,
+                "YOUTUBE_LINK": `https://youtu.be/XMtjxEVIo_o`
+            },
+
+            {  
+                "ID":2, "TITLE": "Bootstrap installation setup and layout basics", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/5.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/5.html`,
+                "YOUTUBE_LINK": `https://youtu.be/_7DA5I1WbUg`
+            },
+            
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "HTML Image Element, SRC Attribute, ObjectFit Style Attribute"},
-            {"ID":2, "TITLE": "URL, converting fileobject as url."},
+            {"ID":1, "TITLE": "DOM Operation using jQuery."},
+            {"ID":2, "TITLE": "Task Manager using jQuery"},
+            {"ID":3, "TITLE": "Layout basics using Bootstrap"},
         ]
     };
     CARD_LIST.push(cardDay5);
