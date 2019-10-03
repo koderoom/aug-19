@@ -163,50 +163,36 @@ export class AwebpService extends DataService {
     // DAY - 6
     const cardDay6 = {
         "ID" : 6,
+        "ACTIVE" : true,
         "TITLE" : "Day 6",
-        "HEADING" : "NODEJS, NPM Fundatemental",
-        "DESC" : `NODEJS, NPM Fundatemental`,
+        "HEADING" : "HTTP and Ajax Fundamental",
+        "DESC" : `HTTP and Ajax Fundamental`,
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "6.1 How to install and setup NodeJS?", 
-                "YOUTUBE_LINK": `https://youtu.be/njeoystjCqo`
+                "ID":1, "TITLE": "How to make AJAX Http Request from developer console?", 
+                "YOUTUBE_LINK": `https://youtu.be/x2VLqzDOsXk`
             },
 
             {  
-                "ID":2, "TITLE": "6.2 How to setup nodejs and web project using NPM?", 
-                "YOUTUBE_LINK": `https://youtu.be/kMLkQetzxgA`
-            },
-
-            {  
-                "ID":3, "TITLE": "6.3 How to install module/package using NPM. [Install bootstrap and lite-server]", 
-                "YOUTUBE_LINK": `https://youtu.be/Oc6dlujaI5w`
-            },
-
-            {  
-                "ID":4, "TITLE": "6.4 How to configure, start and access #lite-server for web project?", 
-                "YOUTUBE_LINK": `https://youtu.be/mM2SF3SgyiI`
-            },
-            {  
-                "ID":5, "TITLE": "6.5 How to use #bootstrap and #fontawesome css installed using NPM?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/3.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/3.html`,
-                "YOUTUBE_LINK": `https://youtu.be/sXclxxCjG_A`
-            },
-            {  
-                "ID":6, "TITLE": "6.6 JSON handson session", 
-                "YOUTUBE_LINK": `https://youtu.be/q1Ck1UUlMWo`
-            },
-            {  
-                "ID":7, "TITLE": "6.7 Implement like and subscribe, make it interactive using client side #javascript for each dynamic post.", 
+                "ID":2, "TITLE": "How to make AJAX Http Request using XMLHttpRequest in javascript?", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day6/1.html`,
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day6/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/X1pFgCJgtgU`
+                "YOUTUBE_LINK": `https://youtu.be/wIMjn7tXAIc`
+            },
+
+            {  
+                "ID":2, "TITLE": "How to handle Ajax Http Response and present using HTML and CSS?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day6/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day6/1.html`,
+                "YOUTUBE_LINK": `https://youtu.be/dgTv6WMSyjA`
             },
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "Install NodeJS and make your project NodeJS aware."},
+            {"ID":1, "TITLE": "Make Ajax Request using XMLHttpRequest"},
+            {"ID":1, "TITLE": "Make Ajax Request using jQuery Ajax"},
+            {"ID":1, "TITLE": "Handle Ajax Http Response"},
         ]
     };
     CARD_LIST.push(cardDay6);
@@ -493,6 +479,12 @@ export class AwebpService extends DataService {
 
 
     /** FEATURE LIST ANGULAR */
+    const featuredAngular6= { "ID" : 1,"TITLE" : "AJAX Reponse", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/dgTv6WMSyjA`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular6);
+
+    const featuredAngular7= { "ID" : 1,"TITLE" : "AJAX Request", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/wIMjn7tXAIc`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular7);
+
     const featuredAngular5= { "ID" : 1,"TITLE" : "Todo Application", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/kJ76D5m17Zw`};
     FEATURED_ANGULAR_LIST.push(featuredAngular5);
 
