@@ -14,7 +14,8 @@ export class AppConstantsService {
                      {"ID":3, "BG": "bg-dark", "BTN":"btn-dark"}, 
                      {"ID":4, "BG": "bg-info", "BTN":"btn-info"}, 
                      {"ID":5, "BG": "bg-secondary", "BTN":"btn-secondary"},
-                     {"ID":6, "BG": "bg-success", "BTN":"btn-success"}
+                     {"ID":6, "BG": "bg-success", "BTN":"btn-success"},
+                     {"ID":7, "BG": "bg-warning", "BTN":"btn-warning"}
                     ];
 
     
