@@ -82,79 +82,37 @@ export class AwebpService extends DataService {
     // DAY - 7
     const cardDay7 = {
         "ID" : 7,
+        "ACTIVE" : true,
         "TITLE" : "Day 7",
-        "HEADING" : "ES6, TypesScript and Angular Fundamental",
-        "DESC" : `ES6, TypesScript and Angular Fundamental`,
+        "HEADING" : "Responsive Todo Application Using Bootstrap & jQuery",
+        "DESC" : `Responsive Todo Application Using Bootstrap & jQuery`,
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "7.1 Fundamentals of ES6. How to compile and run ES6 program in console?", 
-                "YOUTUBE_LINK": `https://youtu.be/_VKZrvaw6Dc`,
-                "SOURCE_LINK" : `https://github.com/koderoom/meanstack/blob/master/src/main.js`,
+                "ID":1, "TITLE": "7.1 How to Setup Live Server & Avoid common mistake while making web application?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day7/1.html`,
+                "YOUTUBE_LINK": ``,
             },
 
             {  
-                "ID":2, "TITLE": "7.2 How to import and export modules in ES6?", 
-                "YOUTUBE_LINK": `https://youtu.be/j5MartizMvY`,
-                "SOURCE_LINK" : `https://github.com/koderoom/meanstack/blob/master/src/main.js`,
+                "ID":2, "TITLE": "7.2 How to make #Reponsive #web #application using #bootstrap?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/2.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day7/2.html`,
+                "YOUTUBE_LINK": ``,
             },
 
             {  
-                "ID":3, "TITLE": "7.3 Fundamentals of TypeScript. How to compile and run #typescript program in console?", 
-                "YOUTUBE_LINK": `https://youtu.be/kbSf2OSVPso`,
-                "SOURCE_LINK" : `https://github.com/koderoom/meanstack/blob/master/src/ts/main.ts`,
-            },
-
-            {  
-                "ID":4, "TITLE": "7.4 Hello Angular. How to #setup #first #Angular project.", 
-                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
-                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`,
-                "YOUTUBE_LINK": `https://youtu.be/RD7EzEauMd8`
-            },
-            {  
-                "ID":5, "TITLE": "7.5 Fundamentals of #Angular #Project Folder Structure.", 
-                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
-                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`,
-                "YOUTUBE_LINK": `https://youtu.be/LpzQ5-2JYwU`
-            },
-            {  
-                "ID":6, "TITLE": "7.6 Data Binding in Angular using #interpolation", 
-                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
-                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`,
-                "YOUTUBE_LINK": `https://youtu.be/lkY_g_82o_I`
-            },
-            {  
-                "ID":7, "TITLE": "7.7 Let's Implement Simple Counter in Angular, using Data Binding. (Interpolation and View to Controller.)", 
-                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
-                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`,
-                "YOUTUBE_LINK": `https://youtu.be/V2OchF-3i3k`
-            },
-            {  
-                "ID":8, "TITLE": "7.8 Basics of App Module in #Angular",
-                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
-                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`, 
-                "YOUTUBE_LINK": `https://youtu.be/Y_IZCcF3Y3A`
-            },
-            {  
-                "ID":9, "TITLE": "7.9 Bi-Directional Data Binding in #Angular.", 
-                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
-                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`, 
-                "YOUTUBE_LINK": `https://youtu.be/XVRiZ5Zjk7g`
-            },
-            {  
-                "ID":10, "TITLE": "7.10 Integrate #bootstrap in #angular", 
-                "SOURCE_LINK" : `https://github.com/koderoom/angular-first`,
-                "DEMO_LINK" : `https://koderoom.github.io/angular-first/`, 
-                "YOUTUBE_LINK": `https://youtu.be/a-UacGK1hDA`
+                "ID":3, "TITLE": "7.3 How to make #Reponsive #todo #application using #bootstrap & jQuery?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/3.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day7/3.html`,
+                "YOUTUBE_LINK": ``,
             },
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "Compile And Run ES6 program"},
-            {"ID":2, "TITLE": "Compile And Run TS program"},
-            {"ID":3, "TITLE": "Setup Angular Project"},
-            {"ID":4, "TITLE": "Practice Data Binding"},
-            {"ID":5, "TITLE": "Integrate Bootstrap into project"},
+            {"ID":1, "TITLE": "Make application responsive using Bootstrap"},
+            {"ID":2, "TITLE": "Reponsive Todo Manager using Bootstrap and jQuery"},
         ]
     };
     CARD_LIST.push(cardDay7);
