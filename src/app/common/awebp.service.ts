@@ -92,21 +92,21 @@ export class AwebpService extends DataService {
                 "ID":1, "TITLE": "7.1 How to Setup Live Server & Avoid common mistake while making web application?", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/1.html`,
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day7/1.html`,
-                "YOUTUBE_LINK": ``,
+                "YOUTUBE_LINK": `https://youtu.be/UuFFdH29u4k`,
             },
 
             {  
                 "ID":2, "TITLE": "7.2 How to make #Reponsive #web #application using #bootstrap?", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/2.html`,
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day7/2.html`,
-                "YOUTUBE_LINK": ``,
+                "YOUTUBE_LINK": `https://youtu.be/eABk8nAI25Y`,
             },
 
             {  
                 "ID":3, "TITLE": "7.3 How to make #Reponsive #todo #application using #bootstrap & jQuery?", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/3.html`,
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day7/3.html`,
-                "YOUTUBE_LINK": ``,
+                "YOUTUBE_LINK": `https://youtu.be/c7Vc8t3V0cQ`,
             },
         ],
 
@@ -436,7 +436,13 @@ export class AwebpService extends DataService {
     FEATURED_LIST.push(featured1);
 
 
-    /** FEATURE LIST ANGULAR */
+    /** FEATURE LIST ANGULAR  */
+    const featuredAngular9= { "ID" : 1,"TITLE" : "Responsive Todo App", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/c7Vc8t3V0cQ`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular9);
+
+    const featuredAngular8= { "ID" : 1,"TITLE" : "Responsive Basics", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/eABk8nAI25Y`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular8);
+
     const featuredAngular6= { "ID" : 1,"TITLE" : "AJAX Reponse", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/dgTv6WMSyjA`};
     FEATURED_ANGULAR_LIST.push(featuredAngular6);
 
