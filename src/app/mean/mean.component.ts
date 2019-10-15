@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { AppConstantsService } from 'src/app/common/app-constants.service';
 import { AwebpService } from 'src/app/common/awebp.service';
 import { DataexamService } from 'src/app/common/dataexam.service';
+import { MeanService } from 'src/app/common/mean.service';
 
 
 @Component({
@@ -31,7 +32,7 @@ export class MeanComponent implements OnInit, AfterViewInit {
   constructor(
     private router: Router,
     public appConstatnts: AppConstantsService,
-    public data: AwebpService,
+    public data: MeanService,
     public dataexam: DataexamService,
   ) { }
 

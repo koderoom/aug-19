@@ -4,11 +4,11 @@ import { DataService } from 'src/app/common/data.service';
 @Injectable({
   providedIn: 'root'
 })
-export class AwebpService extends DataService {
+export class MeanService extends DataService {
 
-    public CARD_LIST:any[];
-    public FEATURED_LIST:any[];
-    public FEATURED_ANGULAR_LIST:any[];
+  public CARD_LIST:any[];
+  public FEATURED_LIST:any[];
+  public FEATURED_ANGULAR_LIST:any[];
 
   constructor() { 
     super(); 
@@ -24,7 +24,7 @@ export class AwebpService extends DataService {
     // DAY - 7
     const cardDay7 = {
         "ID" : 7,
-        "ACTIVE" : true,
+        "ACTIVE" : false,
         "TITLE" : "Day 7",
         "HEADING" : "Responsive Todo Application Using Bootstrap & jQuery",
         "DESC" : `Responsive Todo Application Using Bootstrap & jQuery`,
@@ -63,7 +63,7 @@ export class AwebpService extends DataService {
     // DAY - 6
     const cardDay6 = {
         "ID" : 6,
-        "ACTIVE" : true,
+        "ACTIVE" : false,
         "TITLE" : "Day 6",
         "HEADING" : "HTTP and Ajax Fundamental",
         "DESC" : `HTTP and Ajax Fundamental`,
@@ -101,7 +101,7 @@ export class AwebpService extends DataService {
     // DAY - 5
     const cardDay5 = {
         "ID" : 5,
-        "ACTIVE" : true,
+        "ACTIVE" : false,
         "TITLE" : "Day 5",
         "HEADING" : "DOM Operation using jQuery and Bootstrap fundamental.",
         "DESC" : `DOM Operation using jQuery and Bootstrap fundamental.`,
@@ -155,7 +155,7 @@ export class AwebpService extends DataService {
     // DAY - 4
     const cardDay4 = {
         "ID" : 4,
-        "ACTIVE" : true,
+        "ACTIVE" : false,
         "TITLE" : "Day 4",
         "HEADING" : "DOM Operation & Make a Task Manager Application",
         "DESC" : `DOM Operation & Make a Task Manager Application`,
@@ -205,7 +205,7 @@ export class AwebpService extends DataService {
     // DAY - 3
     const cardDay3 = {
         "ID" : 3,
-        "ACTIVE" : true,
+        "ACTIVE" : false,
         "TITLE" : "Day 3",
         "HEADING" : "Document Object Modal & Javascript integration in HTML",
         "DESC" : `Document Object Modal & Javascript integration in HTML`,
@@ -251,7 +251,7 @@ export class AwebpService extends DataService {
     // DAY - 2
     const cardDay2 = {
         "ID" : 2,
-        "ACTIVE" : true,
+        "ACTIVE" : false,
         "TITLE" : "Day 2",
         "HEADING" : "Applying the learning of HTML and CSS",
         "DESC" : `Applying the learning of HTML and CSS`,
