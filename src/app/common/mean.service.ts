@@ -322,47 +322,19 @@ export class MeanService extends DataService {
         "ID" : 1,
         "ACTIVE" : true,
         "TITLE" : "Day 1",
-        "HEADING" : "HTML & CSS Fundamental",
-        "DESC" : `HTML & CSS Fundamental`,
+        "HEADING" : "Node JS Fundamental",
+        "DESC" : `Node JS Fundamental`,
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "Hello HTML and CSS", 
+                "ID":1, "TITLE": "Hello Node JS", 
                 "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/1.html`,
                 "DEMO_LINK" : `${BASE_URL_DEMO}/day1/1.html`
-            },
-            {  
-                "ID":2, "TITLE": "Internal Styling with Html", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/2.html`
-            },
-            {  
-                "ID":3, "TITLE": "External Styling with Html", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/3.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/3.html`
-            },
-            {  
-                "ID":4, "TITLE": "Writing name in Google Style using HTML and CSS", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/4.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/4.html`
-            },
-            {  
-                "ID":5, "TITLE": "Working with Height and border css property", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/5.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/5.html`
             },
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "Write down and decode the first HTML program?"},
-            {"ID":2, "TITLE": "Integrate Inline Styling with HTML?"},
-            {"ID":3, "TITLE": "Integrate Internal Styling with HTML"},
-            {"ID":3, "TITLE": "Integrate External Styling with HTML"},
-            {"ID":4, "TITLE": "Study the basics CSS property - background, color, font-family, font-size, font-weight"},
-            {"ID":5, "TITLE": "Write your name in Google Style using HTML and CSS?"},
-            {"ID":6, "TITLE": "Write your name in Google Style without using Inline CSS?"},
-            {"ID":7, "TITLE": "Study the basic CSS property - height, width, border, padding, margin"},
-            {"ID":8, "TITLE": "Practical demo using border, height and width"},
+            {"ID":1, "TITLE": "Install, Setup and Run first NODE JS program."},
         ]
     };
     CARD_LIST.push(cardDay1);
@@ -385,27 +357,6 @@ export class MeanService extends DataService {
     const featuredAngular8= { "ID" : 1,"TITLE" : "Responsive Basics", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/eABk8nAI25Y`};
     FEATURED_ANGULAR_LIST.push(featuredAngular8);
 
-    const featuredAngular6= { "ID" : 1,"TITLE" : "AJAX Reponse", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/dgTv6WMSyjA`};
-    FEATURED_ANGULAR_LIST.push(featuredAngular6);
-
-    const featuredAngular7= { "ID" : 1,"TITLE" : "AJAX Request", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/wIMjn7tXAIc`};
-    FEATURED_ANGULAR_LIST.push(featuredAngular7);
-
-    const featuredAngular5= { "ID" : 1,"TITLE" : "Todo Application", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/kJ76D5m17Zw`};
-    FEATURED_ANGULAR_LIST.push(featuredAngular5);
-
-    const featuredAngular4= { "ID" : 1,"TITLE" : "DOM Navigation", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/RanyoDaBF1A`};
-    FEATURED_ANGULAR_LIST.push(featuredAngular4);
-
-    const featuredAngular2= { "ID" : 1,"TITLE" : "Javscript Integrtion", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/qlGARe2bwYs`};
-    FEATURED_ANGULAR_LIST.push(featuredAngular2);
-
-    const featuredAngular3= { "ID" : 1,"TITLE" : "Google Search UI", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/97drOHEegxo`};
-    FEATURED_ANGULAR_LIST.push(featuredAngular3);
-
-    const featuredAngular1= { "ID" : 1,"TITLE" : "Image Gallery", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/FqlBzqm4qb0`};
-    FEATURED_ANGULAR_LIST.push(featuredAngular1);
-    
 
     this.CARD_LIST = CARD_LIST;
     this.FEATURED_LIST = FEATURED_LIST;
