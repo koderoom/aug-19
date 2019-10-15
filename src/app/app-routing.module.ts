@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: 'awebp', component: AwebpComponent},
   { path: 'springcore', component: SpringcoreComponent},
   { path: 'projectref', component: ProjectrefComponent},
+  { path: 'mean', component: ProjectrefComponent},
 
   { path: '',  redirectTo: '/awebp', pathMatch: 'full'},
   { path: 'home', component: AwebpComponent},

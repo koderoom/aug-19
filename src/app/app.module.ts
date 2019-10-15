@@ -9,6 +9,7 @@ import { AwebpComponent } from './awebp/awebp.component';
 import { JavaComponent } from './java/java.component';
 import { SpringcoreComponent } from './springcore/springcore.component';
 import { ProjectrefComponent } from './projectref/projectref.component';
+import { MeanComponent } from './mean/mean.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ProjectrefComponent } from './projectref/projectref.component';
     AwebpComponent,
     JavaComponent,
     SpringcoreComponent,
-    ProjectrefComponent
+    ProjectrefComponent,
+    MeanComponent
   ],
   imports: [
     BrowserModule,
