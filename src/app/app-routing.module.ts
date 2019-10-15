@@ -6,13 +6,14 @@ import { AwebpComponent } from 'src/app/awebp/awebp.component';
 import { JavaComponent } from 'src/app/java/java.component';
 import { SpringcoreComponent } from 'src/app/springcore/springcore.component';
 import { ProjectrefComponent } from 'src/app/projectref/projectref.component';
+import { MeanComponent } from 'src/app/mean/mean.component';
 
 const routes: Routes = [
   { path: 'java', component: JavaComponent},
   { path: 'awebp', component: AwebpComponent},
   { path: 'springcore', component: SpringcoreComponent},
   { path: 'projectref', component: ProjectrefComponent},
-  { path: 'mean', component: ProjectrefComponent},
+  { path: 'mean', component: MeanComponent},
 
   { path: '',  redirectTo: '/awebp', pathMatch: 'full'},
   { path: 'home', component: AwebpComponent},
