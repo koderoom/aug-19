@@ -341,12 +341,7 @@ export class MeanService extends DataService {
 
 
     /** FEATURED LIST */
-    const featured1= {
-        "ID" : 1,
-        "TITLE" : "Google Style Name",
-        "SHOW" : true,
-        "DEMO_LINK" : `${BASE_URL_DEMO}/day1/4.html`
-    };
+    const featured1= { "ID" : 1,"TITLE" : "Basic Syntax", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/c7Vc8t3V0cQ`};;
     FEATURED_LIST.push(featured1);
 
 

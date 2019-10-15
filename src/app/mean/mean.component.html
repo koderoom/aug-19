@@ -94,7 +94,23 @@
   
   
       <div class="col-md-3 col-lg-3 d-flex flex-column align-items-center" style="max-height: calc(100vh - 3.5rem); z-index:999; position: sticky; top:3.5rem; overflow-y: scroll; ">
-          
+            <button class="btn btn-lg btn-block d-md-none text-light" [ngClass]="bgRef.BG" type="button" data-toggle="collapse" data-target="#sidenav" aria-controls="sidenav" aria-expanded="false" aria-label="Toggle docs navigation">
+                Basics Simulations
+            </button>
+
+            <nav class="collapse d-md-block mt-1" id="sidenav">
+                <button type="button" class="btn btn-sm text-light d-none d-md-block" [ngClass]="bgRef.BG" style="opacity:.9;">
+                    Basic Demo <span class="badge badge-light"></span>
+                </button>
+
+                <ul class="nav flex-column " style="font-size:small;">
+                <ng-container *ngFor="let iref of FEATURED_LIST">
+                    <li *ngIf="iref.SHOW" class="nav-item animated pulse  slow"  >
+                        <a class="btn btn-link text-muted pl-0 pb-0" target="_blank" href="{{iref.YOUTUBE_LINK || iref.DEMO_LINK}}">{{iref.TITLE}}</a>
+                    </li>
+                </ng-container>
+                </ul>
+            </nav>
       </div>
     </div>
   </div>
