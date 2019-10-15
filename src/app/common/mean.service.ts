@@ -320,7 +320,7 @@ export class MeanService extends DataService {
     // DAY - 1
     const cardDay1 = {
         "ID" : 1,
-        "ACTIVE" : true,
+        "ACTIVE" : false,
         "TITLE" : "Day 1",
         "HEADING" : "Node JS Fundamental",
         "DESC" : `Node JS Fundamental`,
@@ -341,15 +341,15 @@ export class MeanService extends DataService {
 
 
     /** FEATURED LIST */
-    const featured1= { "ID" : 1,"TITLE" : "Basic Syntax", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/c7Vc8t3V0cQ`};;
+    const featured1= { "ID" : 1,"TITLE" : "Basic Syntax", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/c7Vc8t3V0cQ`};;
     FEATURED_LIST.push(featured1);
 
 
     /** FEATURE LIST ANGULAR  */
-    const featuredAngular9= { "ID" : 1,"TITLE" : "Responsive Todo App", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/c7Vc8t3V0cQ`};
+    const featuredAngular9= { "ID" : 1,"TITLE" : "Responsive Todo App", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/c7Vc8t3V0cQ`};
     FEATURED_ANGULAR_LIST.push(featuredAngular9);
 
-    const featuredAngular8= { "ID" : 1,"TITLE" : "Responsive Basics", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/eABk8nAI25Y`};
+    const featuredAngular8= { "ID" : 1,"TITLE" : "Responsive Basics", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/eABk8nAI25Y`};
     FEATURED_ANGULAR_LIST.push(featuredAngular8);
 
 
