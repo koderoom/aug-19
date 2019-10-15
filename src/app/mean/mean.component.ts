@@ -7,6 +7,8 @@ import { AwebpService } from 'src/app/common/awebp.service';
 import { DataexamService } from 'src/app/common/dataexam.service';
 import { MeanService } from 'src/app/common/mean.service';
 
+import 'bootstrap';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-mean',
