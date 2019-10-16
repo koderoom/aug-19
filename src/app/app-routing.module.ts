@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'projectref', component: ProjectrefComponent},
   { path: 'mean', component: MeanComponent},
 
-  { path: '',  redirectTo: '/awebp', pathMatch: 'full'},
+  { path: '',  redirectTo: '/mean', pathMatch: 'full'},
   { path: 'home', component: AwebpComponent},
 
   { path: 'dacexam', component: DacexamComponent},
