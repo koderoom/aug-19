@@ -320,37 +320,47 @@ export class MeanService extends DataService {
     // DAY - 1
     const cardDay1 = {
         "ID" : 1,
-        "ACTIVE" : false,
+        "ACTIVE" : true,
         "TITLE" : "Day 1",
-        "HEADING" : "Node JS Fundamental",
-        "DESC" : `Node JS Fundamental`,
+        "HEADING" : "Http and Ajax Fundamental",
+        "DESC" : `Http and Ajax Fundamental`,
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "Hello Node JS", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day1/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day1/1.html`
+                "ID":1, "TITLE": "How to make HTTP GET & POST request using POSTMAN?", 
+                "YOUTUBE_LINK" : `https://youtu.be/2cvWa1x5LNY`,
+            },
+            {  
+                "ID":2, "TITLE": "How to make AJAX GET & POST using native javascript?", 
+                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day8/1.html`,
+                "DEMO_LINK" : `${BASE_URL_DEMO}/day8/1.html`,
+                "YOUTUBE_LINK" : `https://youtu.be/5bgt20I52To`,
             },
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "Install, Setup and Run first NODE JS program."},
+            {"ID":1, "TITLE": "HTTP Fundamaental."},
+            {"ID":1, "TITLE": "Ajax Fundamaental."},
+            {"ID":1, "TITLE": "Openweather App."},
         ]
     };
     CARD_LIST.push(cardDay1);
 
 
     /** FEATURED LIST */
-    const featured1= { "ID" : 1,"TITLE" : "Basic Syntax", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/c7Vc8t3V0cQ`};;
+    const featured2 =  { "ID" : 1,"TITLE" : "Ajax Syntax", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/5bgt20I52To`};
+    FEATURED_LIST.push(featured2);
+
+    const featured1= { "ID" : 1,"TITLE" : "Postman", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/2cvWa1x5LNY`};
     FEATURED_LIST.push(featured1);
 
 
     /** FEATURE LIST ANGULAR  */
-    const featuredAngular9= { "ID" : 1,"TITLE" : "Responsive Todo App", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/c7Vc8t3V0cQ`};
-    FEATURED_ANGULAR_LIST.push(featuredAngular9);
-
-    const featuredAngular8= { "ID" : 1,"TITLE" : "Responsive Basics", "SHOW" : false, "YOUTUBE_LINK" : `https://youtu.be/eABk8nAI25Y`};
+    const featuredAngular8= { "ID" : 1,"TITLE" : "Ajax Fundamental", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/5bgt20I52To`};
     FEATURED_ANGULAR_LIST.push(featuredAngular8);
+
+    const featuredAngular9= { "ID" : 1,"TITLE" : "Postman Fundamental", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/2cvWa1x5LNY`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular9);
 
 
     this.CARD_LIST = CARD_LIST;
