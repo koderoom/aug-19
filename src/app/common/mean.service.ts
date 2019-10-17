@@ -251,57 +251,25 @@ export class MeanService extends DataService {
     // DAY - 2
     const cardDay2 = {
         "ID" : 2,
-        "ACTIVE" : false,
+        "ACTIVE" : true,
         "TITLE" : "Day 2",
-        "HEADING" : "Applying the learning of HTML and CSS",
-        "DESC" : `Applying the learning of HTML and CSS`,
+        "HEADING" : "Install & Setup NodeJS and Angular Project",
+        "DESC" : `Install & Setup NodeJS and Angular Project`,
 
         "DEMO_LIST" : [
             {  
-                "ID":10, "TITLE": "CSS Selector - Element, Class and ID selector and Redsign Google Style Name without using Inline Style", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/1.html`,
+                "ID":1, "TITLE": "How to install NodeJS and setup project from scratch?", 
+                "YOUTUBE_LINK": `https://youtu.be/v1nUajQm5IY`
             },
 
             {  
-                "ID":9, "TITLE": "CSS Grid layout. How to use this place element across the page.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/2.html`,
+                "ID":5, "TITLE": "How to write and debug NodeJS program?", 
+                "YOUTUBE_LINK": `https://youtu.be/NsUvmsiRoHs`
             },
 
             {  
-                "ID":8, "TITLE": "Simulate Google Search Page using CSS Grid layout", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/3.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/3.html`,
-                "YOUTUBE_LINK": `https://youtu.be/97drOHEegxo`
-            },
-
-            {  
-                "ID":7, "TITLE": "How to split screen vertically using CSS Grid layout.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/4.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/4.html`,
-                "YOUTUBE_LINK": `https://youtu.be/mBIYalJEQfk`
-            },
-
-            {  
-                "ID":6, "TITLE": "Split the window into 2 Rows and 2 Columns using CSS Grid Layout", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/5.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/5.html`,
-                "YOUTUBE_LINK": `https://youtu.be/mBIYalJEQfk`
-            },
-
-            {  
-                "ID":5, "TITLE": "CSS margin and padding property basics", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/6.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/6.html`,
-                "YOUTUBE_LINK": `https://youtu.be/8zMgirRG8wk`
-            },
-
-            {  
-                "ID":4, "TITLE": "Working with images and create vertical image gallery", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day2/7.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day2/7.html`,
-                "YOUTUBE_LINK": `https://youtu.be/FqlBzqm4qb0`
+                "ID":4, "TITLE": "How to setup Angular project?", 
+                "YOUTUBE_LINK": `https://youtu.be/HnlyeUqy9YY`
             },
 
         ],
@@ -309,10 +277,7 @@ export class MeanService extends DataService {
         "ASSIGNMENT_LIST" : [
             {"ID":1, "TITLE": "CSS Selector"},
             {"ID":1, "TITLE": "Grid Layout - Place element across the page"},
-            {"ID":1, "TITLE": "Split screen horizontally and vertically"},
-            {"ID":1, "TITLE": "Simulate Google Search"},
             {"ID":1, "TITLE": "CSS property margin and padding basics"},
-            {"ID":1, "TITLE": "Working with images"},
         ]
     };
     CARD_LIST.push(cardDay2);
@@ -348,19 +313,22 @@ export class MeanService extends DataService {
 
 
     /** FEATURED LIST */
-    const featured2 =  { "ID" : 1,"TITLE" : "Ajax Syntax", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/5bgt20I52To`};
+    const featured2 =  { "ID" : 1,"TITLE" : "Ajax Fundamental", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/5bgt20I52To`};
     FEATURED_LIST.push(featured2);
 
-    const featured1= { "ID" : 1,"TITLE" : "Postman", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/2cvWa1x5LNY`};
+    const featured1= { "ID" : 1,"TITLE" : "Postman Basics", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/2cvWa1x5LNY`};
     FEATURED_LIST.push(featured1);
 
 
     /** FEATURE LIST ANGULAR  */
-    const featuredAngular8= { "ID" : 1,"TITLE" : "Ajax Fundamental", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/5bgt20I52To`};
+    const featuredAngular8= { "ID" : 1,"TITLE" : "NodeJS Project Setup", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/v1nUajQm5IY`};
     FEATURED_ANGULAR_LIST.push(featuredAngular8);
 
-    const featuredAngular9= { "ID" : 1,"TITLE" : "Postman Fundamental", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/2cvWa1x5LNY`};
+    const featuredAngular9= { "ID" : 1,"TITLE" : "NodeJS Program & Debugging", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/NsUvmsiRoHs`};
     FEATURED_ANGULAR_LIST.push(featuredAngular9);
+
+    const featuredAngular10= { "ID" : 1,"TITLE" : "Angular Project Setup", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/HnlyeUqy9YY`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular10);
 
 
     this.CARD_LIST = CARD_LIST;
