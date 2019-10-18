@@ -307,6 +307,13 @@ export class MeanService extends DataService {
 
 
     /** FEATURE LIST ANGULAR  */
+    const featuredAngular13= { "ID" : 1,"TITLE" : "TS Module Management", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/qafMg7Sslps`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular13);
+    const featuredAngular12= { "ID" : 1,"TITLE" : "ES Module Management", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/pkaHT_Z31jY`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular12);
+    const featuredAngular11= { "ID" : 1,"TITLE" : "NodeJS Module Management", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/UamIqP-ZDLw`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular11);
+
     const featuredAngular8= { "ID" : 1,"TITLE" : "NodeJS Project Setup", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/v1nUajQm5IY`};
     FEATURED_ANGULAR_LIST.push(featuredAngular8);
 
