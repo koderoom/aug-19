@@ -205,44 +205,32 @@ export class MeanService extends DataService {
     // DAY - 3
     const cardDay3 = {
         "ID" : 3,
-        "ACTIVE" : false,
+        "ACTIVE" : true,
         "TITLE" : "Day 3",
-        "HEADING" : "Document Object Modal & Javascript integration in HTML",
-        "DESC" : `Document Object Modal & Javascript integration in HTML`,
+        "HEADING" : "Module Management in NodeJS, ES6 and TS",
+        "DESC" : `Module Management in NodeJS, ES6 and TS`,
 
         "DEMO_LIST" : [
             {  
-                "ID":4, "TITLE": "#document object modal & #DOM #traversal using #querySelector", 
-                "YOUTUBE_LINK": `https://youtu.be/RanyoDaBF1A`
+                "ID":1, "TITLE": "Project Setup and Module Management in NodeJS.", 
+                "YOUTUBE_LINK": `https://youtu.be/UamIqP-ZDLw`
             },
             {  
-                "ID":3, "TITLE": "External Javascript integration with HTML.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/3.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/3.html`,
-                "YOUTUBE_LINK": `https://youtu.be/qlGARe2bwYs`
+                "ID":2, "TITLE": "Project Setup and Module Management in ES6.", 
+                "YOUTUBE_LINK": `https://youtu.be/pkaHT_Z31jY`
             },
-
             {  
-                "ID":2, "TITLE": "Internal Javascript integration with HTML.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/qlGARe2bwYs`
-            },
-
-            {  
-                "ID":1, "TITLE": "Inline Javascript integration with HTML.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day3/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day3/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/qlGARe2bwYs`
+                "ID":3, "TITLE": "Project Setup and Module Management in TS.", 
+                "YOUTUBE_LINK": `https://youtu.be/qafMg7Sslps`
             },
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "Document Object Study"},
-            {"ID":2, "TITLE": "DOM Acesss Object"},
-            {"ID":3, "TITLE": "DOM Modify Object"},
-            {"ID":4, "TITLE": "DOM Add New Object"},
-            {"ID":5, "TITLE": "DOM Add Remove Object"},
+            {"ID":1, "TITLE": "NodeJS Setup and Module Management"},
+            {"ID":2, "TITLE": "ES6 Setup and Module Management"},
+            {"ID":3, "TITLE": "TS Setup and Module Management"},
+            {"ID":4, "TITLE": "Read and Write File in NodeJS"},
+            {"ID":5, "TITLE": "Angular Project Setup"},
         ]
     };
     CARD_LIST.push(cardDay3);
@@ -275,9 +263,7 @@ export class MeanService extends DataService {
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "CSS Selector"},
-            {"ID":1, "TITLE": "Grid Layout - Place element across the page"},
-            {"ID":1, "TITLE": "CSS property margin and padding basics"},
+            {"ID":1, "TITLE": "Install Node JS"},
         ]
     };
     CARD_LIST.push(cardDay2);
