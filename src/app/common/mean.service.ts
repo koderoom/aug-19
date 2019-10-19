@@ -155,48 +155,20 @@ export class MeanService extends DataService {
     // DAY - 4
     const cardDay4 = {
         "ID" : 4,
-        "ACTIVE" : false,
+        "ACTIVE" : true,
         "TITLE" : "Day 4",
-        "HEADING" : "DOM Operation & Make a Task Manager Application",
-        "DESC" : `DOM Operation & Make a Task Manager Application`,
+        "HEADING" : "Application Development Using Angular",
+        "DESC" : `Application Development Using Angular`,
 
         "DEMO_LIST" : [
-
             {  
-                "ID":4, "TITLE": "DOM Operation. How to add/append HTML Element dynamically?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/knfPC6F7o7Y`
+                "ID":4, "TITLE": "Angualr fundamental and todo application using Angular", 
+                "YOUTUBE_LINK": `https://youtu.be/vr7KK3mWxpw`
             },
-
-            {  
-                "ID":3, "TITLE": "DOM Operation. How to remove HTML Element dynamically?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/ANMTd6mh4uk`
-            },
-
-            {  
-                "ID":2, "TITLE": "Todo application using only Html, Css and JavaScript basics", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/2.html`,
-                "YOUTUBE_LINK": `https://youtu.be/kJ76D5m17Zw`
-            },
-
-            {  
-                "ID":1, "TITLE": "Image as background and place element on top of Image.", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day4/3.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day4/3.html`,
-                "YOUTUBE_LINK": `https://youtu.be/7Z6pVA9_2Ng`
-            },
-
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "How to add/append HTML Element dynamically."},
-            {"ID":2, "TITLE": "How to remove HTML Element dynamically."},
-            {"ID":3, "TITLE": "Create a TODO application."},
-            {"ID":4, "TITLE": "Image as background."},
+            {"ID":1, "TITLE": "Angular Application Development"},
         ]
     };
     CARD_LIST.push(cardDay4);
@@ -307,6 +279,8 @@ export class MeanService extends DataService {
 
 
     /** FEATURE LIST ANGULAR  */
+    const featuredAngular14= { "ID" : 1,"TITLE" : "Angular TODO Apps", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/vr7KK3mWxpw`};
+    FEATURED_ANGULAR_LIST.push(featuredAngular14);
     const featuredAngular13= { "ID" : 1,"TITLE" : "TS Module Management", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/qafMg7Sslps`};
     FEATURED_ANGULAR_LIST.push(featuredAngular13);
     const featuredAngular12= { "ID" : 1,"TITLE" : "ES Module Management", "SHOW" : true, "YOUTUBE_LINK" : `https://youtu.be/pkaHT_Z31jY`};
