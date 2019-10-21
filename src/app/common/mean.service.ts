@@ -101,52 +101,21 @@ export class MeanService extends DataService {
     // DAY - 5
     const cardDay5 = {
         "ID" : 5,
-        "ACTIVE" : false,
+        "ACTIVE" : true,
         "TITLE" : "Day 5",
-        "HEADING" : "DOM Operation using jQuery and Bootstrap fundamental.",
-        "DESC" : `DOM Operation using jQuery and Bootstrap fundamental.`,
+        "HEADING" : "Typescript and MongoDB CRUD Opperation",
+        "DESC" : `Typescript and MongoDB CRUD Opperation`,
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "How to install and setup jQuery in HTML project?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/hs4lzaKtqwQ`
+                "ID":1, "TITLE": "CRUD operation using MONGODB & TYPESCRIPT", 
+                "SOURCE_LINK" : `https://github.com/koderoom/mongodb-typescript-crud-demo/blob/master/src/index.ts`,
+                "YOUTUBE_LINK": `https://youtu.be/s45cxnvLarM`
             },
-            {  
-                "ID":5, "TITLE": "jQuery DOM Operation. How to add/append HTML Element dynamically?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/-YongNOXsuc`
-            },
-
-            {  
-                "ID":4, "TITLE": "jQuery DOM Operation. How to remove HTML Element dynamically?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/CTIu81R7boI`
-            },
-
-            {  
-                "ID":3, "TITLE": "Todo application using only Html, Css and jQuery", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/2.html`,
-                "YOUTUBE_LINK": `https://youtu.be/XMtjxEVIo_o`
-            },
-
-            {  
-                "ID":2, "TITLE": "Bootstrap installation setup and layout basics", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day5/5.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day5/5.html`,
-                "YOUTUBE_LINK": `https://youtu.be/_7DA5I1WbUg`
-            },
-            
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "DOM Operation using jQuery."},
-            {"ID":2, "TITLE": "Task Manager using jQuery"},
-            {"ID":3, "TITLE": "Layout basics using Bootstrap"},
+            {"ID":1, "TITLE": "CRUD Operation"},
         ]
     };
     CARD_LIST.push(cardDay5);
