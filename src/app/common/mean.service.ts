@@ -63,36 +63,39 @@ export class MeanService extends DataService {
     // DAY - 6
     const cardDay6 = {
         "ID" : 6,
-        "ACTIVE" : false,
+        "ACTIVE" : true,
         "TITLE" : "Day 6",
-        "HEADING" : "HTTP and Ajax Fundamental",
-        "DESC" : `HTTP and Ajax Fundamental`,
+        "HEADING" : "Developing Api using ExpressJS and MongoDB integration",
+        "DESC" : `Developing Api using ExpressJS and MongoDB integration`,
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "How to make AJAX Http Request from developer console?", 
-                "YOUTUBE_LINK": `https://youtu.be/x2VLqzDOsXk`
+                "ID":1, "TITLE": "Project setup with ExpressJS and Typescript", 
+                "SOURCE_LINK" : `https://github.com/koderoom/crud-with-express-mongo/blob/master/src/index.ts`,
+                "YOUTUBE_LINK": `https://youtu.be/zEV37jf0BNM`
             },
 
             {  
-                "ID":2, "TITLE": "How to make AJAX Http Request using XMLHttpRequest in javascript?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day6/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day6/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/wIMjn7tXAIc`
+                "ID":2, "TITLE": "Developing REST API with ExpressJS and Typescript", 
+                "SOURCE_LINK" : `https://github.com/koderoom/crud-with-express-mongo/blob/master/src/index.ts`,
+                "YOUTUBE_LINK": `https://youtu.be/_V7XLXdec2w`
             },
 
             {  
-                "ID":2, "TITLE": "How to handle Ajax Http Response and present using HTML and CSS?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day6/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day6/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/dgTv6WMSyjA`
+                "ID":3, "TITLE": "How to read input data from request object ExpressJS?", 
+                "SOURCE_LINK" : `https://github.com/koderoom/crud-with-express-mongo/blob/master/src/index.ts`,
+                "YOUTUBE_LINK": `https://youtu.be/aWVMANsR5Zw`
+            },
+
+            {  
+                "ID":4, "TITLE": "CRUD API ExpressJS and Mongodb Integration.", 
+                "SOURCE_LINK" : `https://github.com/koderoom/crud-with-express-mongo/blob/master/src/crud.manager.ts`,
+                "YOUTUBE_LINK": `https://youtu.be/Fvi9ZrF7_Gg`
             },
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "Make Ajax Request using XMLHttpRequest"},
-            {"ID":1, "TITLE": "Make Ajax Request using jQuery Ajax"},
-            {"ID":1, "TITLE": "Handle Ajax Http Response"},
+            {"ID":1, "TITLE": "CRUD API ExpressJS and Mongodb Integration."},
         ]
     };
     CARD_LIST.push(cardDay6);
