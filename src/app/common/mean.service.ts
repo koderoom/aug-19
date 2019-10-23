@@ -31,7 +31,7 @@ export class MeanService extends DataService {
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "Todo App - Server Side CURD API Development with Tyepscript, ExpressJs and MongoDB", 
+                "ID":1, "TITLE": "Todo App - Server Side CURD API Development with Typescript, ExpressJs and MongoDB", 
                 "SOURCE_LINK" : `https://github.com/koderoom/hello-server/blob/master/src/index.ts`,
                 "YOUTUBE_LINK": `https://youtu.be/JP_jQ0Mg4TQ`,
             },
