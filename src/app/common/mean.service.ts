@@ -24,37 +24,27 @@ export class MeanService extends DataService {
     // DAY - 7
     const cardDay7 = {
         "ID" : 7,
-        "ACTIVE" : false,
+        "ACTIVE" : true,
         "TITLE" : "Day 7",
-        "HEADING" : "Responsive Todo Application Using Bootstrap & jQuery",
-        "DESC" : `Responsive Todo Application Using Bootstrap & jQuery`,
+        "HEADING" : "Todo Application Development with Angular, Bootstrap, Express, Node and MongoDB",
+        "DESC" : `Todo Application Development with Angular, Express, Node and MongoDB`,
 
         "DEMO_LIST" : [
             {  
-                "ID":1, "TITLE": "7.1 How to Setup Live Server & Avoid common mistake while making web application?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/1.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day7/1.html`,
-                "YOUTUBE_LINK": `https://youtu.be/UuFFdH29u4k`,
+                "ID":1, "TITLE": "Todo App - Server Side CURD API Development with Tyepscript, ExpressJs and MongoDB", 
+                "SOURCE_LINK" : `https://github.com/koderoom/hello-server/blob/master/src/index.ts`,
+                "YOUTUBE_LINK": `https://youtu.be/JP_jQ0Mg4TQ`,
             },
 
             {  
-                "ID":2, "TITLE": "7.2 How to make #Reponsive #web #application using #bootstrap?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/2.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day7/2.html`,
-                "YOUTUBE_LINK": `https://youtu.be/eABk8nAI25Y`,
-            },
-
-            {  
-                "ID":3, "TITLE": "7.3 How to make #Reponsive #todo #application using #bootstrap & jQuery?", 
-                "SOURCE_LINK" : `${BASE_URL_SOURCE}/tree/master/day7/3.html`,
-                "DEMO_LINK" : `${BASE_URL_DEMO}/day7/3.html`,
-                "YOUTUBE_LINK": `https://youtu.be/c7Vc8t3V0cQ`,
+                "ID":2, "TITLE": "Todo App - Client Side CURD and Server Side Integration with Angular and Bootstrap.", 
+                "SOURCE_LINK" : `https://github.com/koderoom/hello-client/blob/master/src/app/app.component.html`,
+                "YOUTUBE_LINK": `https://youtu.be/2Gv_HmoQA_Q`,
             },
         ],
 
         "ASSIGNMENT_LIST" : [
-            {"ID":1, "TITLE": "Make application responsive using Bootstrap"},
-            {"ID":2, "TITLE": "Reponsive Todo Manager using Bootstrap and jQuery"},
+            {"ID":1, "TITLE": "Server Side and Client Development cum Integartion"},
         ]
     };
     CARD_LIST.push(cardDay7);
