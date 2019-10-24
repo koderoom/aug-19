@@ -21,6 +21,28 @@ export class MeanService extends DataService {
     const FEATURED_ANGULAR_LIST = [];
 
 
+    // DAY - 8
+    const cardDay8 = {
+        "ID" : 8,
+        "ACTIVE" : true,
+        "TITLE" : "Day 8",
+        "HEADING" : "Lets make a website using #Bootstrap and publish using GITHUB",
+        "DESC" : `Lets make a website using #Bootstrap and publish using GITHUB`,
+
+        "DEMO_LIST" : [
+            {  
+                "ID":1, "TITLE": "How to develop & publish Static Website using Bootstrap at GITHUB?", 
+                "SOURCE_LINK" : `https://github.com/santoshmondal/santoshmondal.github.io/blob/dev/src/app/app.component.html`,
+                "YOUTUBE_LINK": `https://youtu.be/MWyOGRZU4Og`,
+            },
+        ],
+
+        "ASSIGNMENT_LIST" : [
+            {"ID":1, "TITLE": "Publish your static web project"},
+        ]
+    };
+    CARD_LIST.push(cardDay8);
+
     // DAY - 7
     const cardDay7 = {
         "ID" : 7,
