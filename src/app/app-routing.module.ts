@@ -7,6 +7,7 @@ import { JavaComponent } from 'src/app/java/java.component';
 import { SpringcoreComponent } from 'src/app/springcore/springcore.component';
 import { ProjectrefComponent } from 'src/app/projectref/projectref.component';
 import { MeanComponent } from 'src/app/mean/mean.component';
+import { AdvjavaComponent } from 'src/app/advjava/advjava.component';
 
 const routes: Routes = [
   { path: 'java', component: JavaComponent},
@@ -14,11 +15,10 @@ const routes: Routes = [
   { path: 'springcore', component: SpringcoreComponent},
   { path: 'projectref', component: ProjectrefComponent},
   { path: 'mean', component: MeanComponent},
+  { path: 'advjava', component: AdvjavaComponent },
 
   { path: '',  redirectTo: '/mean', pathMatch: 'full'},
   { path: 'home', component: AwebpComponent},
-
-  { path: 'dacexam', component: DacexamComponent},
 ];
 
 @NgModule({

@@ -9,6 +9,7 @@
 
 # GENERATE COMPOENENT
 * `ng g c awebp --skipTests=true`
+* `ng g c advjava --skipTests=true`
 * `ng g c java --skipTests=true`
 * `ng g c springcore --skipTests=true`
 * `ng g c projectref --skipTests=true`
@@ -16,6 +17,7 @@
 
 # GENERATE SERVICE
 * `ng generate service common/awebp --skipTests=true`
+* `ng generate service common/advjava --skipTests=true`
 * `ng generate service common/java --skipTests=true`
 * `ng generate service common/springcore --skipTests=true`
 * `ng generate service common/projectref --skipTests=true`

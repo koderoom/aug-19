@@ -22,6 +22,7 @@ export class AppConstantsService {
     MENU_LIST: any[] = [
       {"ID":2, "MENU": "awebp", "DISPLAY":"AWEBP", "routerLink": "awebp", "active": true},
       {"ID":5, "MENU": "mean", "DISPLAY":"MEAN", "routerLink": "mean", "active": true},
+      {"ID":6, "MENU": "mean", "DISPLAY": "AdvJava", "routerLink": "advjava", "active": true },
       {"ID":1, "MENU": "java", "DISPLAY":"JAVA", "routerLink": "java" },
       {"ID":3, "MENU": "springcore", "DISPLAY":"SPRING", "routerLink": "springcore" },
       {"ID":4, "MENU": "projectref", "DISPLAY":"PROJECT", "routerLink": "projectref" },
