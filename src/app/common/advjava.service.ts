@@ -27,29 +27,27 @@ export class AdvjavaService extends DataService {
       "ID": 1,
       "ACTIVE": true,
       "TITLE": "Day 1",
-      "HEADING": "HTML & CSS Fundamental",
-      "DESC": `HTML & CSS Fundamental`,
+      "HEADING": "Advance Java Project Setup",
+      "DESC": `Advance Java Project Setup`,
 
       "DEMO_LIST": [
         {
-          "ID": 1, "TITLE": "Hello HTML and CSS",
-          "SOURCE_LINK": `${BASE_URL_SOURCE}/tree/master/day1/1.html`,
+          "ID": 1, "TITLE": "Eclipse | Advance Java | Project Setup.",
+          "SOURCE_LINK": ``,
         },
         {
-          "ID": 2, "TITLE": "Internal Styling with Html",
-          "SOURCE_LINK": `${BASE_URL_SOURCE}/tree/master/day1/2.html`,
+          "ID": 2, "TITLE": "Eclipse | Advance java | Debug Fundamental.",
+          "SOURCE_LINK": ``,
         },
       ],
 
       "ASSIGNMENT_LIST": [
-        { "ID": 1, "TITLE": "Write down and decode the first HTML program?" },
-        { "ID": 2, "TITLE": "Integrate Inline Styling with HTML?" },
       ]
     };
     CARD_LIST.push(cardDay1);
 
 
-    /** FEATURED LIST */
+    /** RIGHT MENU FEATURED LIST */
     const featured1 = {
       "ID": 1,
       "TITLE": "Google Style Name",
@@ -59,7 +57,7 @@ export class AdvjavaService extends DataService {
     FEATURED_LIST.push(featured1);
 
 
-    /** FEATURE LIST ANGULAR  */
+    /** LEFT MENU FEATURE LIST ANGULAR  */
     const featuredAngular1 = { "ID": 1, "TITLE": "Image Gallery", "SHOW": true, "YOUTUBE_LINK": `https://youtu.be/FqlBzqm4qb0` };
     FEATURED_ANGULAR_LIST.push(featuredAngular1);
 
