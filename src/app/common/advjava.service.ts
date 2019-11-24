@@ -21,13 +21,72 @@ export class AdvjavaService extends DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+    // DAY - 3
+    const cardDay4 = {
+      "ID": 1,
+      "ACTIVE": true,
+      "TITLE": "Session 3",
+      "HEADING": "Servlet, JSP and JDBC Integration",
+      "DESC": `Servlet, JSP and JDBC Integration`,
+
+      "DEMO_LIST": [
+
+        {
+          "ID": 2, "TITLE": "1. Servlet & JSP integration fundamentals with data sharing.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/dyamic-web/src/in/cdac/HelloServlet.java`,
+          "YOUTUBE_LINK": `https://youtu.be/b3pubTVWCe0`,
+        },
+        {
+          "ID": 3, "TITLE": "2. Servlet JSP and JDBC integration fundamental from scratch.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/dyamic-web/src/in/cdac/DbServlet.java`,
+          "YOUTUBE_LINK": `https://youtu.be/TFBvQrEMUpw`,
+        },
+        {
+          "ID": 3, "TITLE": "3. Servlet JSP and JDBC integration, Styling with Bootstrap.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/dyamic-web/WebContent/dbpage.jsp`,
+          "YOUTUBE_LINK": `https://youtu.be/OLkcYbBLEkE`,
+        },
+      ],
+
+      "ASSIGNMENT_LIST": [
+      ]
+    };
+    CARD_LIST.push(cardDay4);
+  
+    // DAY - 3
+    const cardDay3 = {
+      "ID": 1,
+      "ACTIVE": true,
+      "TITLE": "Session 3",
+      "HEADING": "JSP and JDBC Integration",
+      "DESC": `JSP and JDBC Integration`,
+
+      "DEMO_LIST": [
+        
+        {
+          "ID": 2, "TITLE": "1. JSP and JDBC integration using Scriptlet and Expression.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/dyamic-web/WebContent/index-jdbc.jsp`,
+          "YOUTUBE_LINK": `https://youtu.be/loRKRh2wHGE`,
+        },
+        {
+          "ID": 3, "TITLE": "2. Styling JSP & JDBC integration using bootstrap.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/dyamic-web/WebContent/index-jdbc.jsp`,
+          "YOUTUBE_LINK": `https://youtu.be/O7oWp_MxmW0`,
+        },
+      ],
+
+      "ASSIGNMENT_LIST": [
+      ]
+    };
+    CARD_LIST.push(cardDay3);
+
     // DAY - 2
     const cardDay2 = {
       "ID": 1,
       "ACTIVE": true,
       "TITLE": "Session 2",
-      "HEADING": "JSP Fundamental and JDBC Integration",
-      "DESC": `JSP Fundamental and JDBC Integration`,
+      "HEADING": "JSP Scriptlet and Expression Tags Fundamental",
+      "DESC": `JSP Scriptlet and Expression Tags Fundamental`,
 
       "DEMO_LIST": [
         {
@@ -44,6 +103,11 @@ export class AdvjavaService extends DataService {
           "ID": 3, "TITLE": "3. JSP Reading Input Query Parameter  | Expression Tag | Request Implicit Object",
           "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/dyamic-web/WebContent/index.jsp`,
           "YOUTUBE_LINK": `https://youtu.be/xO4591THt8U`,
+        },
+        {
+          "ID": 4, "TITLE": "4. JSP Dynamic Page using Scriptlet and Expression tags with Input Query Parameter",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/dyamic-web/WebContent/index.jsp`,
+          "YOUTUBE_LINK": `https://youtu.be/W31nlKqDeHk`,
         },
       ],
 
