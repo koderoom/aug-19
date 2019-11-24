@@ -21,12 +21,43 @@ export class AdvjavaService extends DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+    // DAY - 2
+    const cardDay2 = {
+      "ID": 1,
+      "ACTIVE": true,
+      "TITLE": "Session 2",
+      "HEADING": "JSP Fundamental and JDBC Integration",
+      "DESC": `JSP Fundamental and JDBC Integration`,
+
+      "DEMO_LIST": [
+        {
+          "ID": 1, "TITLE": "1. How to setup and run Dynamic Web Project in Eclipse? JSP | Servlet.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/dyamic-web/WebContent/index.jsp`,
+          "YOUTUBE_LINK": `https://youtu.be/wZ5P_zpz_y4`,
+        },
+        {
+          "ID": 2, "TITLE": "2. JSP Scriptlet tag example with For Loop and If condition.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/dyamic-web/WebContent/index.jsp`,
+          "YOUTUBE_LINK": `https://youtu.be/mp9IMFrWncY`,
+        },
+        {
+          "ID": 3, "TITLE": "3. JSP Reading Input Query Parameter  | Expression Tag | Request Implicit Object",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/dyamic-web/WebContent/index.jsp`,
+          "YOUTUBE_LINK": `https://youtu.be/xO4591THt8U`,
+        },
+      ],
+
+      "ASSIGNMENT_LIST": [
+      ]
+    };
+    CARD_LIST.push(cardDay2);
+
 
     // DAY - 1
     const cardDay1 = {
       "ID": 1,
       "ACTIVE": true,
-      "TITLE": "Day 1",
+      "TITLE": "Session 1",
       "HEADING": "Java Database Connectivity",
       "DESC": `Java Database Connectivity`,
 
@@ -85,7 +116,7 @@ export class AdvjavaService extends DataService {
 
 
     /** LEFT MENU FEATURE LIST ANGULAR  */
-    const featuredAngular1 = { "ID": 1, "TITLE": "Image Gallery", "SHOW": false, "YOUTUBE_LINK": `https://youtu.be/FqlBzqm4qb0` };
+    const featuredAngular1 = { "ID": 1, "TITLE": "Project Setup", "SHOW": true, "YOUTUBE_LINK": `https://youtu.be/wZ5P_zpz_y4` };
     FEATURED_ANGULAR_LIST.push(featuredAngular1);
 
 
