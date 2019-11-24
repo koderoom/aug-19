@@ -25,7 +25,7 @@ export class AdvjavaService extends DataService {
     const cardDay4 = {
       "ID": 1,
       "ACTIVE": true,
-      "TITLE": "Session 3",
+      "TITLE": "Session 4",
       "HEADING": "Servlet, JSP and JDBC Integration",
       "DESC": `Servlet, JSP and JDBC Integration`,
 
@@ -181,7 +181,10 @@ export class AdvjavaService extends DataService {
 
     /** LEFT MENU FEATURE LIST ANGULAR  */
     const featuredAngular1 = { "ID": 1, "TITLE": "Project Setup", "SHOW": true, "YOUTUBE_LINK": `https://youtu.be/wZ5P_zpz_y4` };
-    FEATURED_ANGULAR_LIST.push(featuredAngular1);
+    const featuredAngular2 = { "ID": 2, "TITLE": "Servlet JSP JDBC", "SHOW": true, "YOUTUBE_LINK": `https://youtu.be/TFBvQrEMUpw` };
+    const featuredAngular3 = { "ID": 3, "TITLE": "Servlet & JSP Integration", "SHOW": true, "YOUTUBE_LINK": `https://youtu.be/b3pubTVWCe0` };
+    const featuredAngular4 = { "ID": 4, "TITLE": "JSP JDBC", "SHOW": true, "YOUTUBE_LINK": `https://youtu.be/O7oWp_MxmW0` };
+    FEATURED_ANGULAR_LIST.push(featuredAngular2, featuredAngular3, featuredAngular4, featuredAngular1,);
 
 
     this.CARD_LIST = CARD_LIST;
