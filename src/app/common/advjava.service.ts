@@ -27,17 +27,36 @@ export class AdvjavaService extends DataService {
       "ID": 1,
       "ACTIVE": true,
       "TITLE": "Day 1",
-      "HEADING": "Advance Java Project Setup",
-      "DESC": `Advance Java Project Setup`,
+      "HEADING": "Java Database Connectivity",
+      "DESC": `Java Database Connectivity`,
 
       "DEMO_LIST": [
         {
-          "ID": 1, "TITLE": "Eclipse | Advance Java | Project Setup.",
-          "SOURCE_LINK": ``,
+          "ID": 1, "TITLE": "1. Java Database Connectivity Setup. Java | JDBC | Mysql | Maven",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/HelloJdbc/src/in/cdac/FirstJdbc.java`,
+          "YOUTUBE_LINK": `https://youtu.be/FF-eGgesyL0`,
         },
         {
-          "ID": 2, "TITLE": "Eclipse | Advance java | Debug Fundamental.",
-          "SOURCE_LINK": ``,
+          "ID": 2, "TITLE": "2. Java Database Connectivity Read and Insert Record in table.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/HelloJdbc/src/in/cdac/MAIN.java`,
+          "YOUTUBE_LINK": `https://youtu.be/etBoIdlYcd0`,
+        },
+        {
+          "ID": 3, "TITLE": "3. Java Database Connectivity Update and Delete Record from table.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/HelloJdbc/src/in/cdac/MAIN.java`,
+          "YOUTUBE_LINK": `https://youtu.be/VkxZ2Zos3Ns`,
+        },
+
+        {
+          "ID": 4, "TITLE": "4. Java Database Connectivity Create, Read, Update & Delete Operation with dynamic parameters.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/HelloJdbc/src/in/cdac/MAIN2.java`,
+          "YOUTUBE_LINK": `https://youtu.be/qMFmU3oqBuY`,
+        },
+
+        {
+          "ID": 5, "TITLE": "5. JDBC Connectivity Create, Read, Update & Delete Operation with User  Define Object as parameter.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/HelloJdbc/src/in/cdac/MAIN3.java`,
+          "YOUTUBE_LINK": `https://youtu.be/iClqalahCIU`,
         },
       ],
 
@@ -51,14 +70,14 @@ export class AdvjavaService extends DataService {
     const featured1 = {
       "ID": 1,
       "TITLE": "Google Style Name",
-      "SHOW": true,
+      "SHOW": false,
       "DEMO_LINK": `${BASE_URL_DEMO}/day1/4.html`
     };
     FEATURED_LIST.push(featured1);
 
 
     /** LEFT MENU FEATURE LIST ANGULAR  */
-    const featuredAngular1 = { "ID": 1, "TITLE": "Image Gallery", "SHOW": true, "YOUTUBE_LINK": `https://youtu.be/FqlBzqm4qb0` };
+    const featuredAngular1 = { "ID": 1, "TITLE": "Image Gallery", "SHOW": false, "YOUTUBE_LINK": `https://youtu.be/FqlBzqm4qb0` };
     FEATURED_ANGULAR_LIST.push(featuredAngular1);
 
 
