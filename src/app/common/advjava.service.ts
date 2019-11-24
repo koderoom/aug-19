@@ -69,11 +69,19 @@ export class AdvjavaService extends DataService {
     /** RIGHT MENU FEATURED LIST */
     const featured1 = {
       "ID": 1,
-      "TITLE": "Google Style Name",
-      "SHOW": false,
-      "DEMO_LINK": `${BASE_URL_DEMO}/day1/4.html`
+      "TITLE": "JDBC Connectivity (Object Based)",
+      "SHOW": true,
+      "YOUTUBE_LINK": `https://youtu.be/iClqalahCIU`
     };
     FEATURED_LIST.push(featured1);
+
+    const featured2 = {
+      "ID": 1,
+      "TITLE": "JDBC Connectivity (Parameter Based)",
+      "SHOW": true,
+      "YOUTUBE_LINK": `https://youtu.be/qMFmU3oqBuY`
+    };
+    FEATURED_LIST.push(featured2);
 
 
     /** LEFT MENU FEATURE LIST ANGULAR  */
