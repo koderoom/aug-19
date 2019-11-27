@@ -42,6 +42,11 @@ export class AdvjavaService extends DataService {
           "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/scope-demo/src/in/cdac/ModalDemoServlet.java`,
           "YOUTUBE_LINK": `https://youtu.be/YV9b-9S30xc`,
         }
+        {
+          "ID": 3, "TITLE": "3. Session management simulation in JSP & Servlet.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/session-demo`,
+          "YOUTUBE_LINK": `https://youtu.be/JxNHq7g8cR0`,
+        }
       ],
 
       "ASSIGNMENT_LIST": [
