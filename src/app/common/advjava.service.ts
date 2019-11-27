@@ -21,6 +21,35 @@ export class AdvjavaService extends DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+
+    // Sessoion - 5
+    const cardDay5 = {
+      "ID": 1,
+      "ACTIVE": true,
+      "TITLE": "Session 5",
+      "HEADING": "Modal View Controller & Scopes of JSP/Servlet Objects",
+      "DESC": `Modal View Controller & Scopes of JSP/Servlet Objects`,
+
+      "DEMO_LIST": [
+
+        {
+          "ID": 2, "TITLE": "1. Scopes of JSP and Servlet Objects",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/scope-demo/WebContent`,
+          "YOUTUBE_LINK": `https://youtu.be/RtBaNDM3PvE`,
+        },
+        {
+          "ID": 3, "TITLE": "2. Passing different data modal between Servlet and JSP.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/scope-demo/src/in/cdac/ModalDemoServlet.java`,
+          "YOUTUBE_LINK": `https://youtu.be/YV9b-9S30xc`,
+        }
+      ],
+
+      "ASSIGNMENT_LIST": [
+      ]
+    };
+    CARD_LIST.push(cardDay5);
+
+
     // DAY - 3
     const cardDay4 = {
       "ID": 1,
