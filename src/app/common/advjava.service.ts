@@ -196,6 +196,20 @@ export class AdvjavaService extends DataService {
 
 
     /** RIGHT MENU FEATURED LIST */
+    const featured4 = {
+      "ID": 1,
+      "TITLE": "Session Management Simulation",
+      "SHOW": true,
+      "YOUTUBE_LINK": `https://youtu.be/JxNHq7g8cR0`
+    };
+    FEATURED_LIST.push(featured4);
+    const featured3 = {
+      "ID": 1,
+      "TITLE": "Scope of JSP & Servlet Objects",
+      "SHOW": true,
+      "YOUTUBE_LINK": `https://youtu.be/RtBaNDM3PvE`
+    };
+    FEATURED_LIST.push(featured3);
     const featured1 = {
       "ID": 1,
       "TITLE": "JDBC Connectivity (Object Based)",
