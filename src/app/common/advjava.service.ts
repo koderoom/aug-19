@@ -23,6 +23,34 @@ export class AdvjavaService extends DataService {
 
 
     // Sessoion - 5
+    const cardDay6 = {
+      "ID": 1,
+      "ACTIVE": true,
+      "TITLE": "Session 6",
+      "HEADING": "JSP Tags and Directives",
+      "DESC": `JSP Tags and Directives`,
+
+      "DEMO_LIST": [
+
+        {
+          "ID": 2, "TITLE": "1. Exception handling in JSP and Servlet",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/exception-demo`,
+          "YOUTUBE_LINK": `https://youtu.be/94UnyceUrZ8`,
+        },
+        {
+          "ID": 3, "TITLE": "2. Include Directive and JSP Include Action tag fundamental",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/include-demo`,
+          "YOUTUBE_LINK": `https://youtu.be/f1Qa7mg2tFE`,
+        }
+      ],
+
+      "ASSIGNMENT_LIST": [
+      ]
+    };
+    CARD_LIST.push(cardDay6);
+
+
+    // Sessoion - 5
     const cardDay5 = {
       "ID": 1,
       "ACTIVE": true,
