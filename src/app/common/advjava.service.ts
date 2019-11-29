@@ -22,6 +22,34 @@ export class AdvjavaService extends DataService {
     const FEATURED_ANGULAR_LIST = [];
 
 
+    // Sessoion - 8
+    const cardDay8 = {
+      "ID": 1,
+      "ACTIVE": true,
+      "TITLE": "Session 8",
+      "HEADING": "JSP SERVLET JDBC HIBERNATE INTEGRATION",
+      "DESC": `JSP SERVLET JDBC HIBERNATE INTEGRATION`,
+
+      "DEMO_LIST": [
+
+        {
+          "ID": 1, "TITLE": "1. Project Setup and register page design.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/demo-book/WebContent/register.jsp`,
+          "YOUTUBE_LINK": `https://youtu.be/SSgjx-vqbyY`,
+        },
+        {
+          "ID": 2, "TITLE": "2. Hibernate Object to Relation Mapping Basics",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/hello-hibernate`,
+          "YOUTUBE_LINK": `https://youtu.be/NJHvAdPlxjU`,
+        }
+      ],
+
+      "ASSIGNMENT_LIST": [
+      ]
+    };
+    CARD_LIST.push(cardDay8);
+
+
     // Sessoion - 7
     const cardDay7 = {
       "ID": 1,
