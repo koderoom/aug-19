@@ -38,9 +38,24 @@ export class AdvjavaService extends DataService {
           "YOUTUBE_LINK": `https://youtu.be/SSgjx-vqbyY`,
         },
         {
-          "ID": 2, "TITLE": "2. Hibernate Object to Relation Mapping Basics",
-          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/hello-hibernate`,
-          "YOUTUBE_LINK": `https://youtu.be/NJHvAdPlxjU`,
+          "ID": 2, "TITLE": "2. JSP & Sevlet Integration and reading Register Input Data",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/demo-book/src/in/cdac/RegiserServlet.java`,
+          "YOUTUBE_LINK": `https://youtu.be/IW8Ci5mytPM`,
+        },
+        {
+          "ID": 3, "TITLE": "3. Servlet & JDBC Integratoin and save Input Data in Database",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/demo-book/src/in/cdac/JdbcRegiserService.java`,
+          "YOUTUBE_LINK": `https://youtu.be/Wwdt-yfeSBA`,
+        },
+        {
+          "ID": 4, "TITLE": "4. Servlet & Hibernate Integratoin and save Input Data in Database",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/demo-book/src/in/cdac/HibernateRegiserService.java`,
+          "YOUTUBE_LINK": `https://youtu.be/VjnnpWJ39pc`,
+        },
+        {
+          "ID": 4, "TITLE": "5. Login in Page Design",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/demo-book/WebContent/login.jsp`,
+          "YOUTUBE_LINK": `https://youtu.be/hHzAI6t07ko`,
         }
       ],
 
