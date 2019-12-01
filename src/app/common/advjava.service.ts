@@ -21,6 +21,90 @@ export class AdvjavaService extends DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+    // Sessoion - 10
+    const cardDay10 = {
+      "ID": 1,
+      "ACTIVE": true,
+      "TITLE": "Session 10",
+      "HEADING": "JSP SERVLET JDBC HIBERNATE INTEGRATION",
+      "DESC": `JSP SERVLET JDBC HIBERNATE INTEGRATION`,
+
+      "DEMO_LIST": [
+
+        {
+          "ID": 1, "TITLE": "11. Home page add logout feature.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/demo-book`,
+          "YOUTUBE_LINK": `https://youtu.be/vZ93R28gonQ`,
+        },
+        {
+          "ID": 2, "TITLE": "12. Design Home page an Option to Add Post and Connect with PostServlet.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/demo-book`,
+          "YOUTUBE_LINK": `https://youtu.be/4_oCxKFQSQo`,
+        },
+        {
+          "ID": 3, "TITLE": "13. Save Post to Database. Integrate PostServlet with PostService.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/demo-book`,
+          "YOUTUBE_LINK": `https://youtu.be/0dncC4_LzAM`,
+        },
+        {
+          "ID": 4, "TITLE": "14. Linking Login Servlet with HomeServlet to prepare data for to display at Home page.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/demo-book`,
+          "YOUTUBE_LINK": `https://youtu.be/TPXc7BJHf1w`,
+        },
+        {
+          "ID": 4, "TITLE": "16. Displaying all the post at Home Page",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/demo-book`,
+          "YOUTUBE_LINK": `https://youtu.be/Pq1eh1XOa-0`,
+        }
+      ],
+
+      "ASSIGNMENT_LIST": [
+      ]
+    };
+    CARD_LIST.push(cardDay10);
+
+    // Sessoion - 9
+    const cardDay9 = {
+      "ID": 1,
+      "ACTIVE": true,
+      "TITLE": "Session 9",
+      "HEADING": "JSP SERVLET JDBC HIBERNATE INTEGRATION",
+      "DESC": `JSP SERVLET JDBC HIBERNATE INTEGRATION`,
+
+      "DEMO_LIST": [
+
+        {
+          "ID": 1, "TITLE": "6. Interlink login and register page",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/demo-book`,
+          "YOUTUBE_LINK": `https://youtu.be/IipKCu_M6nc`,
+        },
+        {
+          "ID": 2, "TITLE": "7. User Registration, Server side validation. Unique Constraint Handling.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/demo-book`,
+          "YOUTUBE_LINK": `https://youtu.be/D1GPGxBHbjc`,
+        },
+        {
+          "ID": 3, "TITLE": "8. User Authentication, Login Jsp And Login Servlet Integration",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/demo-book`,
+          "YOUTUBE_LINK": `https://youtu.be/X5JHbC4BKbg`,
+        },
+        {
+          "ID": 4, "TITLE": "9. User authentication, Login Servlet and Integration with Database.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/demo-book`,
+          "YOUTUBE_LINK": `https://youtu.be/K5k6oOc2lic`,
+        },
+        {
+          "ID": 4, "TITLE": "10. Session Scope and Session Management at protect home pages.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/demo-book`,
+          "YOUTUBE_LINK": `https://youtu.be/IJPqT6evfRM`,
+        }
+      ],
+
+      "ASSIGNMENT_LIST": [
+      ]
+    };
+    CARD_LIST.push(cardDay9);
+
 
     // Sessoion - 8
     const cardDay8 = {
