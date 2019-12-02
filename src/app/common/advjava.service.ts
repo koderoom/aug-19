@@ -21,6 +21,49 @@ export class AdvjavaService extends DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+
+    // Sessoion - 11
+    const cardDay11 = {
+      "ID": 1,
+      "ACTIVE": true,
+      "TITLE": "Session 11",
+      "HEADING": "SPRING BOOT AND SPRING JDBC",
+      "DESC": `SPRING BOOT AND SPRING JDBC`,
+
+      "DEMO_LIST": [
+
+        {
+          "ID": 1, "TITLE": "1. Spring Boot Project Setup.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/hello-spring`,
+          "YOUTUBE_LINK": `https://youtu.be/cgPwlhbTkHI`,
+        },
+        {
+          "ID": 2, "TITLE": "2. Spring Boot |  Dependency Injection Basics",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/hello-spring/src/main/java/in/cdac/hellospring/HelloSpringApplication.java`,
+          "YOUTUBE_LINK": `https://youtu.be/LHnVc4uSvDA`,
+        },
+        {
+          "ID": 3, "TITLE": "3.  Spring Boot | JDBC |  Project Setup",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/tree/master/hello-spring-jdbc`,
+          "YOUTUBE_LINK": `https://youtu.be/2lnc4FsXiLY`,
+        },
+        {
+          "ID": 4, "TITLE": "4. Spring Boot | JDBC | Insert Update Delete Operation",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/hello-spring-jdbc/src/main/java/in/mumbai/demo/HelloSpringJdbcApplication.java`,
+          "YOUTUBE_LINK": `https://youtu.be/ztI_KoDPwLk`,
+        },
+        {
+          "ID": 4, "TITLE": "5. Spring Boot | JDBC | Read Single Row and Read All Row Query.",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/hello-spring-jdbc/src/main/java/in/mumbai/demo/HelloSpringJdbcApplication.java`,
+          "YOUTUBE_LINK": `https://youtu.be/BbHY_rBWMxA`,
+        }
+      ],
+
+      "ASSIGNMENT_LIST": [
+      ]
+    };
+    CARD_LIST.push(cardDay11);
+
     // Sessoion - 10
     const cardDay10 = {
       "ID": 1,
