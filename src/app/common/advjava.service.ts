@@ -53,9 +53,14 @@ export class AdvjavaService extends DataService {
           "YOUTUBE_LINK": `https://youtu.be/ztI_KoDPwLk`,
         },
         {
-          "ID": 4, "TITLE": "5. Spring Boot | JDBC | Read Single Row and Read All Row Query.",
+          "ID": 5, "TITLE": "5. Spring Boot | JDBC | Read Single Row and Read All Row Query.",
           "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/hello-spring-jdbc/src/main/java/in/mumbai/demo/HelloSpringJdbcApplication.java`,
           "YOUTUBE_LINK": `https://youtu.be/BbHY_rBWMxA`,
+        },
+        {
+          "ID": 6, "TITLE": "6. Spring Boot | JDBC | CRUD Operation using Dao",
+          "SOURCE_LINK": `https://github.com/dacjuhu/juhu-aug-19/blob/master/hello-spring-jdbc/src/main/java/in/mumbai/demo/UserDao.java`,
+          "YOUTUBE_LINK": `https://youtu.be/Sa88cePnEHs`,
         }
       ],
 
