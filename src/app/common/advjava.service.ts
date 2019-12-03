@@ -22,6 +22,54 @@ export class AdvjavaService extends DataService {
     const FEATURED_ANGULAR_LIST = [];
 
 
+    // Sessoion - 14
+    const cardDay14 = {
+      ID: 1,
+      ACTIVE: true,
+      TITLE: "Session 14",
+      HEADING: "SPRING WEB MVC",
+      DESC: `SPRING WEB MVC`,
+
+      DEMO_LIST: [
+        {
+          ID: 1,
+          TITLE: `1. Spring Boot | Web App | Project Setup`,
+          SOURCE_LINK: `https://github.com/dacjuhu/juhu-aug-19/tree/master/project-book`,
+          YOUTUBE_LINK: `https://youtu.be/wDeq4aVKHgY`
+        },
+        {
+          ID: 2,
+          TITLE: "2. Spring Boot  | Web App | Application Properties File",
+          SOURCE_LINK: `https://github.com/dacjuhu/juhu-aug-19/blob/master/project-book/src/main/resources/application.properties`,
+          YOUTUBE_LINK: `https://youtu.be/mIdR2hkVUkw`
+        },
+        {
+          ID: 3,
+          TITLE: "3. Spring Boot | Web App | Model And View fundamentals.",
+          SOURCE_LINK: `https://github.com/dacjuhu/juhu-aug-19/blob/master/project-book/src/main/java/in/mumbai/HelloController.java`,
+          YOUTUBE_LINK: `https://youtu.be/jhG5n9opJts`
+        },
+        {
+          ID: 4,
+          TITLE:
+            "4. Spring Boot | Web App | User Registration | Spring JBDC  | View Controller and JDBC Integration.",
+          SOURCE_LINK: `https://github.com/dacjuhu/juhu-aug-19/blob/master/project-book`,
+          YOUTUBE_LINK: `https://youtu.be/wZg8IH3dAuk`
+        },
+        {
+          ID: 5,
+          TITLE:
+            "5. Spring Boot | Web App | User Authentication | Spring JBDC  | View Controller and JDBC Integration",
+          SOURCE_LINK: `https://github.com/dacjuhu/juhu-aug-19/blob/master/project-book`,
+          YOUTUBE_LINK: `https://youtu.be/FJQMnGiiclw`
+        }
+      ],
+
+      ASSIGNMENT_LIST: []
+    };
+    CARD_LIST.push(cardDay14);
+
+
     // Sessoion - 13
     const cardDay13 = {
       ID: 1,
