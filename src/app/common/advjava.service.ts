@@ -21,13 +21,49 @@ export class AdvjavaService extends DataService {
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
 
+
+    // Sessoion - 13
+    const cardDay13 = {
+      ID: 1,
+      ACTIVE: true,
+      TITLE: "Session 13",
+      HEADING: "SPRING REST MVC",
+      DESC: `SPRING REST MVC`,
+
+      DEMO_LIST: [
+        {
+          ID: 4,
+          TITLE: `4. Spring Boot | REST I Adding Multiple RestController`,
+          SOURCE_LINK: `https://github.com/dacjuhu/juhu-aug-19/blob/master/hello-mvc-jdbc/src/main/java/in/mumbai/DemoController.java`,
+          YOUTUBE_LINK: `https://youtu.be/SiBI72_LTIw`
+        },
+        {
+          ID: 5,
+          TITLE: "5. Spring Boot | REST I Reading Input Data",
+          SOURCE_LINK: `https://github.com/dacjuhu/juhu-aug-19/blob/master/hello-mvc-jdbc/src/main/java/in/mumbai/ReadInputController.java`,
+          YOUTUBE_LINK: `https://youtu.be/ZM8UOeP7uZw`
+        },
+        {
+          ID: 6,
+          TITLE:
+            "6. Spring Boot | REST | Spring JDBC Integration and CRUD Operation",
+          SOURCE_LINK: `https://github.com/dacjuhu/juhu-aug-19/blob/master/hello-mvc-jdbc/src/main/java/in/mumbai/UserController.java`,
+          YOUTUBE_LINK: `https://youtu.be/GQJY65y5E3I`
+        }
+      ],
+
+      ASSIGNMENT_LIST: []
+    };
+    CARD_LIST.push(cardDay13);
+
+
     // Sessoion - 12
     const cardDay12 = {
       "ID": 1,
       "ACTIVE": true,
       "TITLE": "Session 12",
-      "HEADING": "SPRING WEB MVC",
-      "DESC": `SPRING WEB MVC`,
+      "HEADING": "SPRING REST MVC",
+      "DESC": `SPRING REST MVC`,
 
       "DEMO_LIST": [
 
