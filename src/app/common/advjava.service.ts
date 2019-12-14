@@ -22,6 +22,32 @@ export class AdvjavaService extends DataService {
     const FEATURED_ANGULAR_LIST = [];
 
 
+    // Sessoion - 15
+    const cardDay15 = {
+      ID: 1,
+      ACTIVE: true,
+      TITLE: "Session 15",
+      HEADING: "Notes & Slides",
+      DESC: `Notes & Slides`,
+
+      DEMO_LIST: [
+        {
+          ID: 1,
+          TITLE: `1. JSP Presentation`,
+          PDF_LINK: `${BASE_URL}/aug-19/assets/jsp.pdf`,
+        },
+        {
+          ID: 2,
+          TITLE: `2. Servlet Presentation`,
+          PDF_LINK: `${BASE_URL}/aug-19/assets/servlet.pdf`,
+        },
+        
+      ],
+
+      ASSIGNMENT_LIST: []
+    };
+    CARD_LIST.push(cardDay15);
+
     // Sessoion - 14
     const cardDay14 = {
       ID: 1,
