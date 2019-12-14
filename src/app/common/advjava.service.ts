@@ -17,6 +17,7 @@ export class AdvjavaService extends DataService {
     const BASE_URL = "https://koderoom.github.io";
     const BASE_URL_DEMO = `https://koderoom.github.io/aug-19-webdemo`;
     const BASE_URL_SOURCE = `https://github.com/koderoom/aug-19-webdemo`;
+    const FIREBASE_BASE_URL = `https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2F`;
     const CARD_LIST = [];
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
@@ -34,32 +35,32 @@ export class AdvjavaService extends DataService {
         {
           ID: 1,
           TITLE: `1. JSP Presentation`,
-          PDF_LINK: `https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2Fjsp.pdf?alt=media`
+          PDF_LINK: `${FIREBASE_BASE_URL}jsp.pdf?alt=media`
         },
         {
           ID: 2,
           TITLE: `2. Servlet Presentation`,
-          PDF_LINK: `https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2Fservlet.pdf?alt=media`
+          PDF_LINK: `${FIREBASE_BASE_URL}servlet.pdf?alt=media`
         },
         {
           ID: 3,
           TITLE: `3. JSP, Servlet and Java Bean Presentation`,
-          PDF_LINK: `https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2Fjsp-servlet-bean.pdf?alt=media`
+          PDF_LINK: `${FIREBASE_BASE_URL}jsp-servlet-bean.pdf?alt=media`
         },
         {
           ID: 4,
           TITLE: `4. Maven Presentation`,
-          PDF_LINK: `https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2Fmaven.pdf?alt=media`
+          PDF_LINK: `${FIREBASE_BASE_URL}maven.pdf?alt=media`
         },
         {
           ID: 5,
           TITLE: `5. Spring Presentation`,
-          PDF_LINK: `https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2Fspring.pdf?alt=media`
+          PDF_LINK: `${FIREBASE_BASE_URL}spring.pdf?alt=media`
         },
         {
           ID: 6,
           TITLE: `6. Spring Boot Presentation`,
-          PDF_LINK: `https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2Fspring-boot.pdf?alt=media`
+          PDF_LINK: `${FIREBASE_BASE_URL}spring-boot.pdf?alt=media`
         }
       ],
 
