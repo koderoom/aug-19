@@ -51,10 +51,10 @@ export class AppConstantsService {
     } 
 
     public toggleCollapse(refel, demoRef) {
+      const dataId = refel.getAttribute("data-id");
+      $("#" + dataId).collapse("toggle");
+
       if(demoRef.YOUTUBE_LINK) {
-        const dataId = refel.getAttribute('data-id');
-        $('#' + dataId).collapse('toggle');
-  
         const youcode = demoRef.YOUTUBE_LINK.replace('https://youtu.be/', '');
         const sret = 'https://www.youtube.com/embed/' + youcode;
   
@@ -62,8 +62,10 @@ export class AppConstantsService {
               <iframe class="embed-responsive-item" src="${sret}" allowfullscreen></iframe>
             `;
       } else if (demoRef.PDF_LINK) {
-        const dataId = refel.getAttribute("data-id");
-        $("#" + dataId).collapse("toggle");
+
+        $("#" + dataId).children()[0].innerHTML = `
+              <iframe class="embed-responsive-item" src="${demoRef.PDF_LINK}" allowfullscreen></iframe>
+            `;
       }
     }
 }

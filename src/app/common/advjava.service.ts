@@ -34,14 +34,13 @@ export class AdvjavaService extends DataService {
         {
           ID: 1,
           TITLE: `1. JSP Presentation`,
-          PDF_LINK: `${BASE_URL}/aug-19/assets/jsp.pdf`,
+          PDF_LINK: `https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2Fjsp.pdf?alt=media`
         },
         {
           ID: 2,
           TITLE: `2. Servlet Presentation`,
-          PDF_LINK: `${BASE_URL}/aug-19/assets/servlet.pdf`,
-        },
-        
+          PDF_LINK: `https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2Fjsp.pdf?alt=media`
+        }
       ],
 
       ASSIGNMENT_LIST: []
