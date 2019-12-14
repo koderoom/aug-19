@@ -77,9 +77,15 @@
                                         title="Youtube Video">
                                         <fa-icon [icon]="faYoutube"></fa-icon>
                                     </a>
+                                    <a *ngIf="demoRef.PDF_LINK" target="_blank" [href]="demoRef.PDF_LINK" class="badge badge-info badge-pill"
+                                        data-toggle="tooltip" data-placement="top" title="Notes & Slides">
+                                        <fa-icon [icon]="faDownload"></fa-icon>
+                                    </a>
                                 </span>
                             </div>
 
+
+                            <!-- YOUTUBE EMBED-->
                             <div *ngIf="demoRef.YOUTUBE_LINK" style="margin-top:20px; margin:10px; width:95%;"
                                 class="collapse" id="{{i+ '' + j  }}">
                                 <div class="embed-responsive embed-responsive-16by9">
@@ -87,8 +93,7 @@
                                 </div>
                             </div>
 
-
-                            <!-- PDF LINK -->
+                            <!-- PDF EMBED -->
                             <div style="margin-top:20px; margin:10px; width:95%;" class="collapse"
                                 id="{{i+ '' + j  }}">
                                 <div *ngIf="demoRef.PDF_LINK" class="embed-responsive embed-responsive-16by9">

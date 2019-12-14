@@ -6,24 +6,25 @@ import * as $ from 'jquery';
 import { DataexamService } from 'src/app/common/dataexam.service';
 import { AppConstantsService } from 'src/app/common/app-constants.service';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faFileCode, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { faFileCode, faLaptopCode, faDownload, faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import { AwebpService } from 'src/app/common/awebp.service';
 import { Router } from '@angular/router';
 import { AdvjavaService } from 'src/app/common/advjava.service';
 
 
 @Component({
-  selector: 'app-advjava',
-  templateUrl: './advjava.component.html',
-  styleUrls: ['./advjava.component.css']
+  selector: "app-advjava",
+  templateUrl: "./advjava.component.html",
+  styleUrls: ["./advjava.component.css"]
 })
 export class AdvjavaComponent implements OnInit, AfterViewInit {
-
   public bgRef: any = {};
 
   public faYoutube = faYoutube;
   public faFileCode = faFileCode;
   public faLaptopCode = faLaptopCode;
+  public faFileDownload = faFileDownload;
+  public faDownload = faDownload;
 
   public CARD_LIST: any[];
   public FEATURED_LIST: any[];
@@ -37,8 +38,8 @@ export class AdvjavaComponent implements OnInit, AfterViewInit {
     private router: Router,
     public appConstatnts: AppConstantsService,
     public data: AdvjavaService,
-    public dataexam: DataexamService,
-  ) { }
+    public dataexam: DataexamService
+  ) {}
 
   ngOnInit(): void {
     this.CARD_LIST = this.data.CARD_LIST;
@@ -49,7 +50,7 @@ export class AdvjavaComponent implements OnInit, AfterViewInit {
     this.EXAM_LIST = this.dataexam.EXAM_LIST;
     this.TOPLIST = this.dataexam.B2LIST.concat(this.dataexam.B1LIST);
 
-    this.appConstatnts.SEL_BG_REF_OBJ_AS_OBSERABLE.subscribe((bgRef) => {
+    this.appConstatnts.SEL_BG_REF_OBJ_AS_OBSERABLE.subscribe(bgRef => {
       setTimeout(() => {
         this.bgRef = bgRef;
       }, 10);
@@ -59,7 +60,7 @@ export class AdvjavaComponent implements OnInit, AfterViewInit {
   }
 
   public ngAfterViewInit(): void {
-    $('a').tooltip();
+    $("a").tooltip();
   }
 
   public toggleCollapse(refel, demoRef): void {
@@ -67,5 +68,4 @@ export class AdvjavaComponent implements OnInit, AfterViewInit {
       this.appConstatnts.toggleCollapse(refel, demoRef);
     }
   }
-
 }
