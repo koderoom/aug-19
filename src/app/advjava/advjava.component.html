@@ -88,11 +88,9 @@
                             </div>
 
 
-                            <div *ngIf="demoRef.PDF_LINK" style="margin-top:20px; margin:10px; width:95%;" class="collapse"
+                            <div style="margin-top:20px; margin:10px; width:95%;" class="collapse"
                                 id="{{i+ '' + j  }}">
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <!-- <iframe class="embed-responsive-item" [src]="getYoutubeLink(demoRef)" allowfullscreen></iframe> -->
-                                </div>
+                                <ngx-extended-pdf-viewer [src]="'https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2Fjsp.pdf?alt=media'" useBrowserLocale="true" height="80vh"></ngx-extended-pdf-viewer>
                             </div>
                         </li>
                     </ul>

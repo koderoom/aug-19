@@ -61,6 +61,9 @@ export class AppConstantsService {
         $('#' + dataId).children()[0].innerHTML = `
               <iframe class="embed-responsive-item" src="${sret}" allowfullscreen></iframe>
             `;
+      } else if (demoRef.PDF_LINK) {
+        const dataId = refel.getAttribute("data-id");
+        $("#" + dataId).collapse("toggle");
       }
     }
 }

@@ -63,7 +63,7 @@ export class AdvjavaComponent implements OnInit, AfterViewInit {
   }
 
   public toggleCollapse(refel, demoRef): void {
-    if (demoRef.YOUTUBE_LINK) {
+    if (demoRef.YOUTUBE_LINK || demoRef.PDF_LINK) {
       this.appConstatnts.toggleCollapse(refel, demoRef);
     }
   }

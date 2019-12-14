@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgxExtendedPdfViewerModule } from "ngx-extended-pdf-viewer";
+
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
@@ -26,9 +28,10 @@ import { AdvjavaComponent } from './advjava/advjava.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgxExtendedPdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
