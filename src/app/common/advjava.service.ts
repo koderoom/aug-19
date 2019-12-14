@@ -45,6 +45,21 @@ export class AdvjavaService extends DataService {
           ID: 3,
           TITLE: `3. JSP, Servlet and Java Bean Presentation`,
           PDF_LINK: `https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2Fjsp-servlet-bean.pdf?alt=media`
+        },
+        {
+          ID: 4,
+          TITLE: `4. Maven Presentation`,
+          PDF_LINK: `https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2Fmaven.pdf?alt=media`
+        },
+        {
+          ID: 5,
+          TITLE: `5. Spring Presentation`,
+          PDF_LINK: `https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2Fspring.pdf?alt=media`
+        },
+        {
+          ID: 6,
+          TITLE: `6. Spring Boot Presentation`,
+          PDF_LINK: `https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2Fspring-boot.pdf?alt=media`
         }
       ],
 
