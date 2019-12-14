@@ -17,7 +17,7 @@ export class AdvjavaService extends DataService {
     const BASE_URL = "https://koderoom.github.io";
     const BASE_URL_DEMO = `https://koderoom.github.io/aug-19-webdemo`;
     const BASE_URL_SOURCE = `https://github.com/koderoom/aug-19-webdemo`;
-    const FIREBASE_BASE_URL = `https://firebasestorage.googleapis.com/v0/b/koderoom-book.appspot.com/o/slides%2F`;
+    const FIREBASE_BASE_URL = `https://firebasestorage.googleapis.com/v0/b/cdacbook.appspot.com/o/dac%2F`;
     const CARD_LIST = [];
     const FEATURED_LIST = [];
     const FEATURED_ANGULAR_LIST = [];
